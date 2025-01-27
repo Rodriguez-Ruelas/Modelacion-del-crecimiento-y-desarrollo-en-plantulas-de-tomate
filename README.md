@@ -149,7 +149,10 @@ El ancho de tallo (**A<sub>t</sub>**, mm) se midió a la mitad del primer entren
 #### 4.4.4. Área foliar
 Para obtener el área foliar (**AF**, m<sup>2</sup> planta<sup>-1</sup>), las hojas por planta se escanearon en un multifuncional de la marca EPSON® serie 220 y las imágenes digitales se procesaron con el programa de uso libre (ImageJ, National Institutes of Health).
 
-![Descripción de la imagen](https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/ImegeJ.png)
+<p align="center">
+  <img src="https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/ImegeJ.png" alt="ImageJ">
+</p>
+<p align="center"><em>Figura 3. Software ImageJ utilizado para calcular el área foliar.</em></p>
 
 
 
