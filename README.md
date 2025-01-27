@@ -1,4 +1,4 @@
-# Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate
+# MODELACION DEL CRECIMIENTO Y DESARROLLO EN PLANTULAS DE-TOMATE
 
 ## INTRODUCCION
 El modelo de predicción propuesto es una simplificación del modelo de Heuvelink (2005) para la producción de tomate en invernadero, solo que nuestro modelo no contempla la producción de fruto ni las variables de estado, parámetros y tasas de cambio relacionadas, ya que la producción de plántulas en invernadero se extiende solo hasta la aparición de las primeras hojas extendidas. Los valores para los parámetros requeridos por el modelo fueron obtenidos a partir de la literatura y experimentalmente.
