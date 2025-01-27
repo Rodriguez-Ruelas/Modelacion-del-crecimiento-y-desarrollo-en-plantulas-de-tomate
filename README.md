@@ -265,3 +265,37 @@ La conductancia del mesófilo (𝑔<sub>m</sub>, cm s<sup>-1</sup>) se calculó 
 | 15                        | 0.4                                          |
 | 25                        | 0.4                                          |
 | 40                        | 0                                            |
+
+
+### 5.9.3.11. Resistencia del mesófilo al CO2
+
+La resistencia del mesófilo (𝑟<sub>m</sub>, s<sup>-1</sup> m<sup>-1</sup>) se calcula a partir del inverso de la conductancia del mesófilo:
+
+$$ r_m = \frac{1}{g_m} $$
+
+donde:
+- 𝑟<sub>m</sub> es la resistencia del mesófilo al CO<sub>2</sub> (s m<sup>-1</sup>)
+- 𝑔<sub>m</sub> es la conductancia del mesófilo al CO<sub>2</sub> (m s<sup>-1</sup>)
+
+### 5.9.3.12. Carboxilación limitada por fotosíntesis neta
+
+Como la carboxilación limitada por fotosíntesis neta (𝐹<sub>𝑛𝑐</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>) se calcula a partir de la concentración ambiental de CO<sub>2</sub>, se usa la ley de los gases para obtener esta variable en función de la temperatura:
+
+$$ gas\_law = \frac{4424}{293 \cdot (273 + T_a)} \cdot 1000 $$
+
+donde:
+- 𝑔𝑎𝑠𝑙𝑎𝑤 es la concentración ambiental de CO<sub>2</sub> en función de la temperatura (μg CO<sub>2</sub> m<sup>-3</sup>)
+- 𝑇<sub>a</sub> es la temperatura del aire (°C)
+
+Por lo que:
+
+$$ F_{nc} = \frac{(C_a - \Gamma) \cdot gas\_law}{(r_m + (1.6 \cdot r_s) + (1.6 \cdot r_{b,v}))} $$
+
+donde:
+- 𝐹<sub>𝑛𝑐</sub> es la carboxilación limitada por fotosíntesis neta (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>)
+- 𝐶<sub>a</sub> es la concentración de CO<sub>2</sub> ambiental (μg CO<sub>2</sub> m<sup>-3</sup>)
+- 𝛤 es el punto de compensación de CO<sub>2</sub> (μg CO<sub>2</sub> m<sup>-3</sup>)
+- 𝑟<sub>m</sub> es la resistencia del mesófilo al CO<sub>2</sub> (s m<sup>-1</sup>)
+- 𝑟<sub>s</sub> es la resistencia estomática (s m<sup>-1</sup>)
+- 𝑟<sub>b,v</sub> es la resistencia de la barrera vaporosa (s m<sup>-1</sup>)
+
