@@ -194,3 +194,28 @@ donde:
 - 𝐹<sub>𝑃𝐴𝑅 es la fracción de irradiancia solar sobre la banda fotosintética (adimensional)
 
 Se considera que 𝑇<sub>pr</sub> = 46 % y que 𝐹<sub>𝑃𝐴𝑅 = 0.50.
+
+### 5.9.3.3. Temperatura media diaria
+
+La temperatura media diaria (𝑇<sub>m24h</sub>, °C) diaria se obtuvo del promedio de la 𝑇<sub>a</sub> cada 15 min obtenida de los registradores electrónicos Hobo® en cada microtúnel.
+
+### 5.9.3.4. Desarrollo fenológico
+
+La acumulación de grados días desarrollo (GDD) en cada evento fenológico se obtuvo mediante el método de Manrique y Hodges (1989). La temperatura óptima de crecimiento (𝑇<sub>opt</sub>), temperatura mínima de crecimiento o temperatura base (𝑇<sub>b</sub>) y la temperatura máxima de crecimiento (𝑇<sub>mc</sub>), se obtuvieron con base en la metodología descrita en el apartado 5.7.2.
+
+### 5.9.3.5. Fracción de radiación absorbida por el cultivo
+
+La fracción de radiación absorbida (𝑓, adimensional) se calculó con base en una adaptación a la ley de Beer-Lambert:
+
+$$ f = 1 - e^{-k \cdot IAF} $$
+
+donde:
+- 𝑓 es la fracción de radiación absorbida (adimensional)
+- 𝑘 es el coeficiente de extinción (adimensional)
+- 𝐼𝐴𝐹 es el índice de área foliar (m<sup>2</sup> m<sup>-2</sup>)
+- 𝑒 es el número de Euler (adimensional)
+
+### 5.9.3.6. Radiación absorbida por el follaje
+
+La radiación absorbida por el follaje (𝐼, J m<sup>-2</sup> s<sup>-1</sup>) se calculó con la siguiente ecuación:
+
