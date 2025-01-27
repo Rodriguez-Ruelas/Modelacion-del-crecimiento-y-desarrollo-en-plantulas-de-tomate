@@ -70,3 +70,7 @@ Determinar el efecto de la temperatura máxima en el crecimiento y desarrollo de
 ![Microtúneles](https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/Microtuneles.png)
 
 
+![Sistema de control](https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/Sistema%20de%20control.png)
+
+
+
