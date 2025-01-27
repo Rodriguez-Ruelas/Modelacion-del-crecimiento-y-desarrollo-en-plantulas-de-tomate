@@ -111,13 +111,11 @@ Como interfaz de comunicación, se usó una placa ethernet genérica basada en e
 ### 5.4.7. Sistema de monitoreo
 Para construir el sistema de monitoreo (𝑆𝑀) en tiempo real del DCC, se usó el servidor “Internet of Things” (𝐼𝑂𝑇) que presta la compañía Ubidots®. Este servicio permite enlazar el 𝑆𝐶𝐶 con el servidor IOT para almacenar datos.
 
-#### Cuadro 6. Definición de tratamientos por fecha de cultivo
+Cuadro 6. Definición de tratamientos por fecha de cultivo.
 
-| Fecha de cultivo | Temperatura del aire 𝑇𝑚í𝑛−𝑇𝑚á𝑥 (°C) | 𝑇1  | 𝑇2  | 𝑇3  |
-|------------------|--------------------------------------|------|------|------|
-| 𝐹1              | 6-27                                 | 6-35 | 6-40 |      |
-| 𝐹2              | 6-27                                 | 6-35 | 6-40 |      |
+Fecha de cultivo | Temperatura del aire 𝑇𝑚í𝑛−𝑇𝑚á𝑥 (°C)  
+-----------------|--------------------------------------  
+𝐹1              | 𝑇1: 6-27, 𝑇2: 6-35, 𝑇3: 6-40  
+𝐹2              | 𝑇1: 6-27, 𝑇2: 6-35, 𝑇3: 6-40  
 
-Donde:  
-𝑇1, 𝑇2 y 𝑇3 son los tratamientos, y 𝐹1 y 𝐹2 son las fechas de cultivo.
-
+*Nota*: 𝑇1, 𝑇2 y 𝑇3 son los tratamientos, mientras que 𝐹1 y 𝐹2 representan las fechas de cultivo.
