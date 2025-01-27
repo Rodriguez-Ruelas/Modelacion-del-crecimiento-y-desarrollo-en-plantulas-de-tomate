@@ -299,3 +299,22 @@ donde:
 - 𝑟<sub>s</sub> es la resistencia estomática (s m<sup>-1</sup>)
 - 𝑟<sub>b,v</sub> es la resistencia de la barrera vaporosa (s m<sup>-1</sup>)
 
+
+Los parámetros 𝑟<sub>m</sub> = 50 s m<sup>-1</sup> y 𝑟<sub>b,v</sub> = 100 s m<sup>-1</sup> fueron obtenidos a partir de los valores propuestos por Bertin y Heuvelink (1993) para el modelo TOMISM versión 1.0.
+
+### 5.9.3.13. Máxima capacidad fotosintética
+
+Goudriaan y Van Laar (2012) proponen obtener la máxima capacidad fotosintética (𝐹<sub>𝑚𝑚</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>) mediante la interpolación entre este parámetro y la temperatura del aire. Los valores de interpolación son obtenidos de datos de campo donde la temperatura del aire (°C) se encuentra en el eje de las abscisas y 𝐹<sub>𝑚𝑚</sub> en el eje de las ordenadas. Los datos para la interpolación se obtuvieron de Bertin y Heuvelink (1993) y se usan en el modelo TOMISIM versión 1.0 (Cuadro 8).
+
+#### Cuadro 8. Cálculo de la máxima capacidad fotosintética (𝐹<sub>𝑚𝑚</sub>)
+
+| Temperatura del aire (°C) | 𝐹<sub>𝑚𝑚</sub> (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>) |
+|---------------------------|---------------------------------------------------------------|
+| 0                         | 0                                                             |
+| 15                        | 45                                                            |
+| 25                        | 45                                                            |
+| 40                        | 0                                                             |
+
+donde:
+- 𝐹<sub>𝑚𝑚</sub> es la máxima capacidad fotosintética (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>)
+
