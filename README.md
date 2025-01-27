@@ -346,3 +346,36 @@ La máxima tasa de asimilación total (𝐹<sub>g,max</sub>, μg CO<sub>2</sub> 
 $$
 F_{g,max} = F_{n,max} + R_d
 $$
+
+donde:
+- 𝐹<sub>g,max</sub> es la tasa máxima de asimilación total (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>);
+- 𝑅<sub>d</sub> es la respiración actual (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>);
+- 𝐹<sub>n,max</sub> es la tasa máxima de asimilación neta (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>).
+
+### 5.9.3.17. Tasa de asimilación total
+
+La tasa de asimilación total (𝐹<sub>g</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>) cuando 𝐹<sub>g</sub> es mayor a 0, entonces se calcula con la siguiente ecuación:
+
+$$
+F_g = F_{g,max} \cdot \left(1 - e^{-\epsilon \cdot I} / F_{g,max} \right)
+$$
+
+donde:
+- 𝐹<sub>g</sub> es la tasa de asimilación total (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>);
+- 𝐹<sub>g,max</sub> es la tasa máxima de asimilación completa (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>);
+- 𝜖 es el rendimiento cuántico actual (μg CO<sub>2</sub> J<sup>-1</sup>);
+- 𝐼 es la irradiancia absorbida por el follaje (J m<sup>-2</sup> s<sup>-1</sup>).
+
+### 5.9.3.18. Tasa de asimilación neta
+
+La tasa de asimilación neta (𝐹<sub>n,CO2</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>), se calculó con base en la diferencia entre 𝐹<sub>g</sub> y 𝑅<sub>d</sub>.
+
+$$
+F_n = F_g - R_d
+$$
+
+donde:
+- 𝐹<sub>n</sub> es la tasa de asimilación neta (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>);
+- 𝐹<sub>g</sub> es la tasa de asimilación total (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>);
+- 𝑅<sub>d</sub> es la respiración actual (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>).
+
