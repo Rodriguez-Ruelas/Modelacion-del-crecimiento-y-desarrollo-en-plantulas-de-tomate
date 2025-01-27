@@ -1,7 +1,51 @@
 # Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate
 
-# RESUMEN
+## Resultados destacados del análisis del resumen
 
-La calidad de plántula de tomate depende de variables morfológicas y de desarrollo, sensibles a temperaturas altas prevalecientes en sistemas de cultivo intensivo bajo cubierta plástica. Se cultivaron plántulas de tomate tipo saladette del híbrido DRD 8551 (SEMINIS®) en microtúneles cubiertos con plástico lechoso (50 % de transmisión), bajo seis tratamientos de temperatura mínima y máxima (𝑇𝑚í𝑛−𝑇𝑚á𝑥): 12-29 °C (𝑇1), 14-31 °C (𝑇2), 12-34 °C (𝑇3), 13-34 °C (𝑇4), 13-38 °C (𝑇5) y 13-40 °C (𝑇6). Se obtuvo un valor de grados días desarrollo (𝐺𝐷𝐷) de 114 para primera hoja y 184 para segunda hoja. La temperatura máxima promedio (𝑇𝑚á𝑥) en el rango de 29 a 40 °C, así como otras variables derivadas de la temperatura tuvieron efecto (P≤0.05) sobre las fracciones de biomasa asignadas a tallo y hoja; los tratamientos 𝑇6 y 𝑇1 presentaron los mayores promedios en esas variables; mientras que también hubo efecto de la temperatura en la acumulación de biomasa en tallo (P≤0.05). La longitud de tallo se correlacionó con la temperatura promedio diurna (𝑇𝑚𝑑), la temperatura promedio diaria (𝑇𝑚24ℎ) y la temperatura promedio nocturna (𝑇𝑚𝑛) con R2=0.75, 0.79 y 0.71 respectivamente. 𝑇4 tuvo la mayor longitud y la menor fue para 𝑇1. El área foliar específica (m2 g-1) se correlacionó con 𝑇𝑚𝑛 (R2=0.83); el mayor valor fue en el tratamiento 𝑇4 y el menor, el tratamiento 𝑇1. El efecto de la temperatura en la eficiencia en el uso de la radiación (𝐸𝑈𝑅) g1 MJ-1 no fue significativo (P>0.05) ni el coeficiente de extinción; aunque la 𝐸𝑈𝑅 tuvo una R2=0.73 con 𝑇𝑚á𝑥. Las cinéticas de fotosíntesis presentaron 1000 μmol fotones m-2 s-1 como punto de saturación por luz bajo las temperaturas de 28, 31 y 40 °C. Sin embargo, el punto de compensación presentó diferencias de 120, 6 y 89 μmol fotones m-2 s-1a 28, 31 y 40 °C respectivamente. El rendimiento cuántico fue similar
-v
-(0.06 mol de CO2 mol-1 de fotones) bajo las temperaturas de 28, 31 °C, y de 0.04 μmol fotones m-2 s-1 para 40 °C. El modelo propuesto presentó un coeficiente de correlación de 0.82 en la predicción de biomasa total acumulada, no obstante, tiende a sobreestimar esta variable con un error medio porcentual de 46.7 %. La cantidad de biomasas cumulada en tallo obtuvo un error de 50.7 % con una tendencia a subestimar. Contrario a esto, la biomasa acumulada en hoja fue sobreestimada por el modelo en 53.8 %. La biomasa acumulada en raíz fue la que mejor tendencia presentó, sin embargo, su porcentaje de error fue el más alto (59.7 %). La variable 𝑇𝑚á𝑥 afectó las relaciones fuente-demanda, lo que causó diferencias en la longitud del tallo, una de las características que definen la calidad de la plántula de tomate.
+1. **Grados días de desarrollo (GDD):**
+   - Primera hoja: 114 GDD.
+   - Segunda hoja: 184 GDD.
+
+2. **Temperaturas probadas:**
+   - Rango de tratamientos: `T1: 12-29 °C` a `T6: 13-40 °C`.
+
+3. **Efecto de la temperatura en la biomasa:**
+   - Temperaturas máximas promedio (`Tmáx`) entre 29 y 40 °C influyeron significativamente (`P ≤ 0.05`) en:
+     - Fracciones de biomasa asignadas a tallo y hoja.
+     - Acumulación de biomasa en tallo.
+   - `T6` y `T1` presentaron los mayores valores promedio en biomasa asignada.
+
+4. **Correlación de la longitud de tallo con temperatura:**
+   - `Tmd` (`R² = 0.75`), `Tm24h` (`R² = 0.79`) y `Tmn` (`R² = 0.71`).
+   - `T4` presentó la mayor longitud de tallo, `T1` la menor.
+
+5. **Área foliar específica:**
+   - Correlación con `Tmn` (`R² = 0.83`).
+   - Mayor valor en `T4`, menor en `T1`.
+
+6. **Eficiencia en el uso de la radiación (EUR):**
+   - No fue significativa (`P > 0.05`), aunque tuvo `R² = 0.73` con `Tmáx`.
+
+7. **Cinética de fotosíntesis:**
+   - Punto de saturación: 1000 μmol fotones m⁻² s⁻¹ a 28, 31 y 40 °C.
+   - Punto de compensación:
+     - 120 μmol fotones m⁻² s⁻¹ (28 °C).
+     - 6 μmol fotones m⁻² s⁻¹ (31 °C).
+     - 89 μmol fotones m⁻² s⁻¹ (40 °C).
+   - Rendimiento cuántico:
+     - Similar para 28 y 31 °C (0.06 mol CO₂ mol⁻¹ fotones).
+     - Inferior a 40 °C (0.04 mol CO₂ mol⁻¹ fotones).
+
+8. **Modelo de predicción de biomasa total acumulada:**
+   - Coeficiente de correlación: 0.82.
+   - Sobreestima con error medio porcentual: 46.7 %.
+   - Biomasa por compartimiento:
+     - **Tallo:** Subestimada (50.7 %).
+     - **Hoja:** Sobreestimada (53.8 %).
+     - **Raíz:** Mejor tendencia, pero error mayor (59.7 %).
+
+9. **Efecto de `Tmáx`:**
+   - Influyó en las relaciones fuente-demanda, causando diferencias en la longitud del tallo, una característica clave de la calidad de la plántula.
+
+
+
