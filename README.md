@@ -20,6 +20,10 @@ El modelo de predicción consta de 2 variables ambientales de entrada: la irradi
 ![Diagrama de flujo](https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/Diagrama%20de%20flujo.png)
 **Figura 1.** Diagrama de flujo para el modelado del crecimiento y desarrollo de plántulas de tomate.
 
+<p align="center">
+  <strong>Figura 1.</strong> Diagrama de flujo para el modelado del crecimiento y desarrollo de plántulas de tomate.
+</p>
+
 
 ## Resultados destacados del análisis del resumen
 
