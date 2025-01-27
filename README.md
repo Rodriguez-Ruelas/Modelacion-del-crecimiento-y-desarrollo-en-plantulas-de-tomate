@@ -1,6 +1,6 @@
-# MODELACION DEL CRECIMIENTO Y DESARROLLO EN PLANTULAS DE TOMATE
+# 🌱📊 MODELACIÓN DEL CRECIMIENTO Y DESARROLLO EN PLÁNTULAS DE TOMATE 🍅
 
-## INTRODUCCION
+## I. INTRODUCCION
 
 La producción de tomate en invernadero es una actividad económica muy importante en el mundo. Con el paso del tiempo y la gran cantidad de descubrimientos científicos en fisiología de plantas, se ha logrado entender cómo la fotosíntesis, respiración y otros procesos fisiológicos son fundamentales para entender el crecimiento y desarrollo de las plantas. Con la incorporación de otras ciencias como física, química, informática y la electrónica en la investigación y producción agrícola, se ha podido lograr la abstracción de algunas partes que componen un sistema agrícola.
 
