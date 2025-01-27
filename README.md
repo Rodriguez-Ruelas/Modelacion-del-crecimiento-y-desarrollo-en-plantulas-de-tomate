@@ -185,6 +185,8 @@ Cada valor para las variables iniciales se obtuvieron a partir del primer muestr
 
 La irradiancia fotosintética sobre el cultivo (I<sub>fs</sub>, MJ m<sup>-2</sup> d<sup>-1</sup>) se calculó con la siguiente ecuación:
 
+$$ I_{fs} = I_i \cdot \left( \frac{T_{pr}}{100} \right) \cdot F_{PAR} $$
+
 donde:
 - 𝑇<sub>pr</sub> es la transmisión de la cubierta plástica de los microtúneles (%)
 - 𝐼<sub>fs</sub> es la irradiancia fotosintética sobre el cultivo (MJ m<sup>2</sup> s<sup>-1</sup>)
