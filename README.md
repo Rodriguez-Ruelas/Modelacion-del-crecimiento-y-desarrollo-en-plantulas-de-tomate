@@ -76,9 +76,35 @@ Para establecer el experimento se construyeron 3 estructuras protegidas con form
 
 
 ![Microtúneles](https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/Microtuneles.png)
+Fig. 
+
+Los microtúneles se diseñaron y construyeron utilizando Arduino, en conjunto con el servicio de Ubidots, una plataforma de IoT (Internet of Things) para monitoreo y control de dispositivos. La capacidad de diseñar y construir nuestros propios instrumentos de experimentación es fundamental para explorar y someter a las plantas a los tratamientos correspondientes que se desean evaluar.
 
 
 ![Sistema de control](https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/Sistema%20de%20control.png)
+Fig. 
 
-Los microtúneles se diseñaron y construyeron utilizando Arduino, en conjunto con el servicio de Ubidots, una plataforma de IoT (Internet of Things) para monitoreo y control de dispositivos. La capacidad de diseñar y construir nuestros propios instrumentos de experimentación es fundamental para explorar y someter a las plantas a los tratamientos correspondientes que se desean evaluar.
+
+
+El sistema de control (SC) para ajustar la temperatura del aire (Ta) a la curva de temperatura deseada (Tac), utilizando hardware y software de código abierto. 
+
+El sistema incluye:
+
+- **Dispositivo central de control (DCC)**:  
+  Basado en una placa Arduino MEGA® que maneja entradas y salidas digitales y analógicas.
+
+- **Dispositivos de entrada**:  
+  Sensores DHT22 para medir temperatura y humedad relativa, y un módulo RTC para registrar fecha y hora.
+
+- **Dispositivos de salida**:  
+  Un módulo de relevadores para activar extractores y calefactores.
+
+- **Dispositivo de comunicación**:  
+  Una interfaz ethernet que soporta protocolos IP, TCP y UDP.
+
+- **Sistema de monitoreo (SM)**:  
+  Utiliza la plataforma IoT de Ubidots® para almacenamiento de datos, alertas móviles y control remoto.
+
+El SC monitorea Ta cada 5 segundos. Si la temperatura está por encima de Tac + 0.5 °C, activa el extractor de aire para enfriar; si está por debajo de Tac - 0.5 °C, enciende el calefactor. Ambos dispositivos se apagan al alcanzar Tac.
+
 
