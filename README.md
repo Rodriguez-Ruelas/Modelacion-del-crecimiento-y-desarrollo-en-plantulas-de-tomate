@@ -113,11 +113,11 @@ Para construir el sistema de monitoreo (𝑆𝑀) en tiempo real del DCC, se us�
 
 #### Cuadro 6. Definición de tratamientos por fecha de cultivo
 
-| Temperatura del aire 𝑇𝑚í𝑛−𝑇𝑚á𝑥 (°C)|
-| Fecha de cultivo | Temperatura del aire 𝑇𝑚í𝑛−𝑇𝑚á𝑥 (°C) | 𝑇1  | 𝑇2  | 𝑇3  |
-|------------------|--------------------------------------|------|------|------|
-| 𝐹1              |                                       |6-27  |6-35  | 6-40 |
-| 𝐹2              |                                       |6-27  |6-35  | 6-40 |
+| Temperatura del aire 𝑇𝑚í𝑛−𝑇𝑚á𝑥 (°C)   |
+| Fecha de cultivo | 𝑇1    | 𝑇2   | 𝑇3   |
+|------------------|------ |------|------|
+| 𝐹1               | 6-27  |6-35  | 6-40 |
+| 𝐹2               | 6-27  |6-35  | 6-40 |
 
 Donde:  
 𝑇1, 𝑇2 y 𝑇3 son los tratamientos, y 𝐹1 y 𝐹2 son las fechas de cultivo.
