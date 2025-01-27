@@ -1,6 +1,16 @@
 # MODELACION DEL CRECIMIENTO Y DESARROLLO EN PLANTULAS DE TOMATE
 
 ## INTRODUCCION
+
+La producción de tomate en invernadero es una actividad económica muy importante en el mundo. Con el paso del tiempo y la gran cantidad de descubrimientos científicos en fisiología de plantas, se ha logrado entender cómo la fotosíntesis, respiración y otros procesos fisiológicos son fundamentales para entender el crecimiento y desarrollo de las plantas. Con la incorporación de otras ciencias como física, química, informática y la electrónica en la investigación y producción agrícola, se ha podido lograr la abstracción de algunas partes que componen un sistema agrícola.
+
+A partir de trabajos realizados en la Universidad de Wageningen y otras instituciones dedicadas a la investigación agrícola, se han podido establecer modelos de predicción. Los modelos de predicción nos permiten desglosar un sistema en algunas de sus partes para lograr un mejor entendimiento de estos, nos ayuda a tomar mejores decisiones en cuanto al manejo del cultivo y puede llegar a generar nueva información acerca del sistema. En este sentido, un modelo de predicción agrícola es una herramienta en constante evolución, capaz de ser ajustada y adaptada en función del conocimiento que se tenga de dicho sistema.
+
+En cuanto a la producción de tomate en invernadero, existen modelos como el **TOMGRO**, **TOMSIM** y **TOMPOSSE**; los cuales presentan diferentes formas de evaluar y predecir el crecimiento y desarrollo en tomate. Cada modelo está basado en trabajos de investigación tanto en campo como en ambientes controlados y estos pretenden brindar una visión específica del sistema que representan.
+
+Los modelos de predicción en el campo de la agricultura son de gran importancia para mejorar la producción bajo invernadero y la aportación de nuevo conocimiento científico. Su precisión ha ido de la mano con la evolución e incorporación de otras disciplinas y, sin duda, es un campo integrador del conocimiento de un sistema.
+
+
 El modelo de predicción propuesto es una simplificación del modelo de Heuvelink (2005) para la producción de tomate en invernadero, solo que nuestro modelo no contempla la producción de fruto ni las variables de estado, parámetros y tasas de cambio relacionadas, ya que la producción de plántulas en invernadero se extiende solo hasta la aparición de las primeras hojas extendidas. Los valores para los parámetros requeridos por el modelo fueron obtenidos a partir de la literatura y experimentalmente.
 
 El modelo se construyó con base en las investigaciones de Goudriaan y Van Laar (2012) y Heuvelink (2005). Se usó la denominación de variables original descritas por Goudriaan y Van Laar (2012). El cálculo de grados día desarrollo (𝐺𝐷𝐷) se hizo a partir del método sugerido por Manrique y Hodges (1989). Por otro lado, la eficiencia en el uso de la radiación (𝐸𝑈𝑅) y la partición de fotoasimilados a los diferentes órganos de la plántula de tomate fueron obtenidos experimentalmente.
