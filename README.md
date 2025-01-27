@@ -1,6 +1,6 @@
 # Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate
 
-### Introduccion
+## INTRODUCCION
 El modelo de predicción propuesto es una simplificación del modelo de Heuvelink (2005) para la producción de tomate en invernadero, solo que nuestro modelo no contempla la producción de fruto ni las variables de estado, parámetros y tasas de cambio relacionadas, ya que la producción de plántulas en invernadero se extiende solo hasta la aparición de las primeras hojas extendidas. Los valores para los parámetros requeridos por el modelo fueron obtenidos a partir de la literatura y experimentalmente.
 
 El modelo se construyó con base en las investigaciones de Goudriaan y Van Laar (2012) y Heuvelink (2005). Se usó la denominación de variables original descritas por Goudriaan y Van Laar (2012). El cálculo de grados día desarrollo (𝐺𝐷𝐷) se hizo a partir del método sugerido por Manrique y Hodges (1989). Por otro lado, la eficiencia en el uso de la radiación (𝐸𝑈𝑅) y la partición de fotoasimilados a los diferentes órganos de la plántula de tomate fueron obtenidos experimentalmente.
