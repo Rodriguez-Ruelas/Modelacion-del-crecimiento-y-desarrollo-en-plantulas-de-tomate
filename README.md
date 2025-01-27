@@ -154,11 +154,8 @@ Para obtener el área foliar (**AF**, m<sup>2</sup> planta<sup>-1</sup>), las ho
 </p>
 <p align="center"><strong>Figura 3. </strong>Software ImageJ utilizado para calcular el área foliar.</p>
 
-
-
 #### 4.4.5. Índice de área foliar
 El índice de área foliar (**IAF**, m<sup>2</sup> hoja m<sup>-2</sup> superficie) se calculó a partir del promedio de **AF** (m<sup>2</sup> planta<sup>-1</sup>) de cuatro plantas por tratamiento, el cual se multiplicó por la densidad de plantas por metro cuadrado (899.1).
-
 
 ### 5.7.4. Cálculo de parámetros de las plántulas de tomate
 #### 5.7.4.1. Coeficiente de extinción
@@ -172,6 +169,12 @@ donde:
 - **IIAF** es la irradiancia medida bajo el dosel del cultivo;
 - **I<sub>o</sub>** es la irradiancia medida sobre el dosel del cultivo;
 - **IAF** es el índice de área foliar.
+
+<p align="center">
+  <img src="https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/CoeffExt.png" alt="CoeffExt">
+</p>
+<p align="center"><strong>Figura 4. </strong>Mediciones con el radiómetro lineal. A). Por encima del dosel y B). Por debajo del dosel.</p>
+
 
 #### 5.7.4.2. Área foliar específica
 El área foliar específica (**AFE**, m<sup>2</sup> g<sup>-1</sup>) se calculó a partir de la relación entre el **AF** (m<sup>2</sup>) y el peso del área foliar (**B<sub>sh</sub>**, g m<sup>-2</sup>) promedio de cuatro plantas por tratamiento.
