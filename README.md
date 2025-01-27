@@ -186,10 +186,9 @@ Cada valor para las variables iniciales se obtuvieron a partir del primer muestr
 La irradiancia fotosintética sobre el cultivo (I<sub>fs</sub>, MJ m<sup>-2</sup> d<sup>-1</sup>) se calculó con la siguiente ecuación:
 
 donde:
-- $T_{pr}$ es la transmisión de la cubierta plástica de los microtúneles (%)
-- $I_{fs}$ es la irradiancia fotosintética sobre el cultivo (MJ m^{2} s^{-1})
-- $I_{i}$ es la irradiancia solar al exterior del túnel (MJ m^{2} s^{-1})
-- $FPAR$ es la fracción de irradiancia solar sobre la banda fotosintética (adimensional)
+- 𝑇<sub>pr</sub> es la transmisión de la cubierta plástica de los microtúneles (%)
+- 𝐼<sub>fs</sub> es la irradiancia fotosintética sobre el cultivo (MJ m<sup>2</sup> s<sup>-1</sup>)
+- 𝐼<sub>i</sub> es la irradiancia solar al exterior del túnel (MJ m<sup>2</sup> s<sup>-1</sup>)
+- 𝐹𝑃𝐴𝑅 es la fracción de irradiancia solar sobre la banda fotosintética (adimensional)
 
-Se considera que $T_{pr}$ = 46 % y que $FPAR$ = 0.50.
-.
+Se considera que 𝑇<sub>pr</sub> = 46 % y que 𝐹𝑃𝐴𝑅 = 0.50.
