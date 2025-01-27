@@ -71,15 +71,15 @@ El modelo de predicción consta de 2 variables ambientales de entrada: la irradi
 
 ## III. OBJETIVOS
 
-### 3.1 Objetivo general
+### 3.1. Objetivo general
 Determinar el efecto de la temperatura máxima en el crecimiento y desarrollo de plántulas de tomate.
 
-### 3.2 Objetivos específicos
+### 3.2. Objetivos específicos
 - Determinar el efecto de la temperatura máxima en las variables y parámetros de crecimiento y desarrollo de plántulas de tomate.
 - Adaptar un modelo mecanicista al crecimiento y desarrollo de la plántula de tomate bajo condiciones de microtúneles de plástico.
 
 ## IV. MATERIALES Y METODOS
-### Construcción de microtúneles
+### 4.1. Construcción de microtúneles
 
 Para establecer el experimento se construyeron 3 estructuras protegidas con forma de microtúneles. A cada microtúnel se le adaptó un ventilador como extractor de aire, un calefactor, una estructura de madera para evitar que las charolas de poliestireno estuvieran en contacto con el suelo, malla para cubrir el suelo de color blanco (*ground cover*) y plástico lechoso de 50 % de transmisión de radiación solar, el cual fue designado para cubrir las estructuras de invernaderos.
 
@@ -91,7 +91,7 @@ Para establecer el experimento se construyeron 3 estructuras protegidas con form
 
 Los microtúneles se diseñaron y construyeron utilizando Arduino, en conjunto con el servicio de Ubidots, una plataforma de IoT (Internet of Things) para monitoreo y control de dispositivos. La capacidad de diseñar y construir nuestros propios instrumentos de experimentación es fundamental para explorar y someter a las plantas a los tratamientos correspondientes que se desean evaluar.
 
-### Sistema de control
+### 4.2. Sistema de control
 Para ajustar Ta a la curva de la función de Tac, se desarrolló un sistema de control (𝑆𝐶). El 𝑆𝐶 se diseñó a partir hardware y software “open source”. El hardware del 𝑆𝐶 consistió de cinco componentes:  
   - a) Dispositivo central de control (𝐷𝐶𝐶),  
   - b) Dispositivos de entrada (𝐷𝐸),  
@@ -122,7 +122,7 @@ e) **Sistema de monitoreo (𝑆𝑀)**
 Para construir el sistema de monitoreo (𝑆𝑀) en tiempo real del DCC, se usó el servidor “Internet of Things” (𝐼𝑂𝑇) que presta la compañía Ubidots®. Este servicio permite enlazar el 𝑆𝐶𝐶 con el servidor IOT para almacenar datos.
 
 
-### Tratamientos
+### 4.3. Tratamientos
  
 ### Definición de tratamientos por fecha de cultivo 
 | Fecha de cultivo | 𝑇1    | 𝑇2   | 𝑇3   |
@@ -134,9 +134,10 @@ Para construir el sistema de monitoreo (𝑆𝑀) en tiempo real del DCC, se us�
 Donde:  
 𝑇1, 𝑇2 y 𝑇3 son los tratamientos, y 𝐹1 y 𝐹2 son las fechas de cultivo.
 
-### 5.7.3. Variables fisiológicas
+### 4.4. Variables fisiológicas
+
 #### 5.7.3.1. Biomasa seca total y por órgano vegetal
-Se realizaron muestreos destructivos cada cuatro días, de cuatro plántulas por microtúnel, tomando solo aquellas que se encontraban en competencia completa. Primero, se lavó el cepellón para retirar la turba adherida a las raíces, y enseguida se envolvieron las plántulas en sanitas humedecidas con agua destilada para evitar deshidratación. Las plántulas se dividieron en sus órganos principales: tallo, hoja y raíz. Cada órgano se metió en sobres de papel, los cuales se pusieron a secar en una estufa de aire forzado marca FELISA® a 75 °C por 72 h o hasta alcanzar peso constante. El peso de la biomasa seca se obtuvo con una balanza analítica marca Sartorius modelo 1474. A partir de los pesos de biomasa seca de cada órgano y la densidad de plantas por metro cuadrado (899.1), se calcularon las variables de biomasa total (**B<sub>stot</sub>**, g m<sup>-2</sup>), tallo (**B<sub>st</sub>**, g m<sup>-2</sup>), hoja (**B<sub>sh</sub>**, g m<sup>-2</sup>) y raíz (**B<sub>sr</sub>**, g m<sup>-2</sup>).
+Se calcularon las variables de biomasa total (**B<sub>stot</sub>**, g m<sup>-2</sup>), tallo (**B<sub>st</sub>**, g m<sup>-2</sup>), hoja (**B<sub>sh</sub>**, g m<sup>-2</sup>) y raíz (**B<sub>sr</sub>**, g m<sup>-2</sup>).
 Con los datos de biomasa seca acumulada total y en cada órgano, se calculó la fracción de fotoasimilados asignado a cada órgano vegetal; fracción de fotoasimilados asignados a hoja (**F<sub>h</sub>**, %), fracción de fotoasimilados asignados a tallo (**F<sub>t</sub>**, %) y fracción de fotoasimilados a raíz (**F<sub>r</sub>**, %).
 
 #### 5.7.3.2. Longitud de tallo
