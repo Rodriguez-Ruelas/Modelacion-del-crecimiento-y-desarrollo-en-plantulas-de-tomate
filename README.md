@@ -47,5 +47,13 @@
 9. **Efecto de `Tmáx`:**
    - Influyó en las relaciones fuente-demanda, causando diferencias en la longitud del tallo, una característica clave de la calidad de la plántula.
 
+## II. OBJETIVOS
+
+### 2.1. Objetivo general
+Determinar el efecto de la temperatura máxima en el crecimiento y desarrollo de plántulas de tomate.
+
+### 2.2. Objetivos específicos
+- Determinar el efecto de la temperatura máxima en las variables y parámetros de crecimiento y desarrollo de plántulas de tomate.
+- Adaptar un modelo mecanicista al crecimiento y desarrollo de la plántula de tomate bajo condiciones de microtúneles de plástico.
 
 
