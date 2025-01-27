@@ -136,21 +136,22 @@ Donde:
 
 ### 4.4. Variables fisiológicas
 
-#### 5.7.3.1. Biomasa seca total y por órgano vegetal
+#### 4.4.1. Biomasa seca total y por órgano vegetal
 Se calcularon las variables de biomasa total (**B<sub>stot</sub>**, g m<sup>-2</sup>), tallo (**B<sub>st</sub>**, g m<sup>-2</sup>), hoja (**B<sub>sh</sub>**, g m<sup>-2</sup>) y raíz (**B<sub>sr</sub>**, g m<sup>-2</sup>).
 Con los datos de biomasa seca acumulada total y en cada órgano, se calculó la fracción de fotoasimilados asignado a cada órgano vegetal; fracción de fotoasimilados asignados a hoja (**F<sub>h</sub>**, %), fracción de fotoasimilados asignados a tallo (**F<sub>t</sub>**, %) y fracción de fotoasimilados a raíz (**F<sub>r</sub>**, %).
 
-#### 5.7.3.2. Longitud de tallo
+#### 4.4.2. Longitud de tallo
 La longitud del tallo (**L<sub>t</sub>**, cm) se midió después de la división de la plántula. Este inicio desde el primer nudo hasta la punta del tallo. Para esta medición se usó un flexómetro marca Truper®.
 
-#### 5.7.3.3. Ancho de tallo
+#### 4.4.3. Ancho de tallo
 El ancho de tallo (**A<sub>t</sub>**, mm) se midió a la mitad del primer entrenudo de las plantas diseccionadas con un vernier digital de la marca Truper®.
 
-#### 5.7.3.4. Área foliar
+#### 4.4.4. Área foliar
 Para obtener el área foliar (**AF**, m<sup>2</sup> planta<sup>-1</sup>), las hojas por planta se escanearon en un multifuncional de la marca EPSON® serie 220 y las imágenes digitales se procesaron con el programa de uso libre (ImageJ, National Institutes of Health).
 
-#### 5.7.3.5. Índice de área foliar
+#### 4.4.5. Índice de área foliar
 El índice de área foliar (**IAF**, m<sup>2</sup> hoja m<sup>-2</sup> superficie) se calculó a partir del promedio de **AF** (m<sup>2</sup> planta<sup>-1</sup>) de cuatro plantas por tratamiento, el cual se multiplicó por la densidad de plantas por metro cuadrado (899.1).
+
 
 ### 5.7.4. Cálculo de parámetros de las plántulas de tomate
 #### 5.7.4.1. Coeficiente de extinción
