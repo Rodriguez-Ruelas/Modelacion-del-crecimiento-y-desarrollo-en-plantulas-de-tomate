@@ -122,3 +122,48 @@ Para construir el sistema de monitoreo (𝑆𝑀) en tiempo real del DCC, se us�
 
 Donde:  
 𝑇1, 𝑇2 y 𝑇3 son los tratamientos, y 𝐹1 y 𝐹2 son las fechas de cultivo.
+
+### 5.7.3. Variables fisiológicas
+#### 5.7.3.1. Biomasa seca total y por órgano vegetal
+Se realizaron muestreos destructivos cada cuatro días, de cuatro plántulas por microtúnel, tomando solo aquellas que se encontraban en competencia completa. Primero, se lavó el cepellón para retirar la turba adherida a las raíces, y enseguida se envolvieron las plántulas en sanitas humedecidas con agua destilada para evitar deshidratación. Las plántulas se dividieron en sus órganos principales: tallo, hoja y raíz. Cada órgano se metió en sobres de papel, los cuales se pusieron a secar en una estufa de aire forzado marca FELISA® a 75 °C por 72 h o hasta alcanzar peso constante. El peso de la biomasa seca se obtuvo con una balanza analítica marca Sartorius modelo 1474. A partir de los pesos de biomasa seca de cada órgano y la densidad de plantas por metro cuadrado (899.1), se calcularon las variables de biomasa total (**B<sub>stot</sub>**, g m<sup>-2</sup>), tallo (**B<sub>st</sub>**, g m<sup>-2</sup>), hoja (**B<sub>sh</sub>**, g m<sup>-2</sup>) y raíz (**B<sub>sr</sub>**, g m<sup>-2</sup>).
+Con los datos de biomasa seca acumulada total y en cada órgano, se calculó la fracción de fotoasimilados asignado a cada órgano vegetal; fracción de fotoasimilados asignados a hoja (**F<sub>h</sub>**, %), fracción de fotoasimilados asignados a tallo (**F<sub>t</sub>**, %) y fracción de fotoasimilados a raíz (**F<sub>r</sub>**, %).
+
+#### 5.7.3.2. Longitud de tallo
+La longitud del tallo (**L<sub>t</sub>**, cm) se midió después de la división de la plántula. Este inicio desde el primer nudo hasta la punta del tallo. Para esta medición se usó un flexómetro marca Truper®.
+
+#### 5.7.3.3. Ancho de tallo
+El ancho de tallo (**A<sub>t</sub>**, mm) se midió a la mitad del primer entrenudo de las plantas diseccionadas con un vernier digital de la marca Truper®.
+
+#### 5.7.3.4. Área foliar
+Para obtener el área foliar (**AF**, m<sup>2</sup> planta<sup>-1</sup>), las hojas por planta se escanearon en un multifuncional de la marca EPSON® serie 220 y las imágenes digitales se procesaron con el programa de uso libre (ImageJ, National Institutes of Health).
+
+#### 5.7.3.5. Índice de área foliar
+El índice de área foliar (**IAF**, m<sup>2</sup> hoja m<sup>-2</sup> superficie) se calculó a partir del promedio de **AF** (m<sup>2</sup> planta<sup>-1</sup>) de cuatro plantas por tratamiento, el cual se multiplicó por la densidad de plantas por metro cuadrado (899.1).
+
+### 5.7.4. Cálculo de parámetros de las plántulas de tomate
+#### 5.7.4.1. Coeficiente de extinción
+El coeficiente de extinción (**k**) se calculó a partir de mediciones de irradiancia fotosintética sobre (**I<sub>o</sub>**, μmol·m<sup>-2</sup>·s<sup>-1</sup>) y debajo (**IIAF**, μmol·m<sup>-2</sup>·s<sup>-1</sup>) del follaje del cultivo con un radiómetro lineal LI-1500 (LI-COR®, Inc.), y el **IAF** obtenido al momento de hacer la medición. La ecuación usada para calcular **k** fue:
+
+$$
+k = -\frac{\ln \left(\frac{IIAF}{I<sub>o</sub>}\right)}{IAF}
+$$
+
+donde:
+- **IIAF** es la irradiancia medida bajo el dosel del cultivo;
+- **I<sub>o</sub>** es la irradiancia medida sobre el dosel del cultivo;
+- **IAF** es el índice de área foliar.
+
+#### 5.7.4.2. Área foliar específica
+El área foliar específica (**AFE**, m<sup>2</sup> g<sup>-1</sup>) se calculó a partir de la relación entre el **AF** (m<sup>2</sup>) y el peso del área foliar (**B<sub>sh</sub>**, g m<sup>-2</sup>) promedio de cuatro plantas por tratamiento.
+
+#### 5.7.4.3. Eficiencia en el uso de la radiación solar
+La eficiencia en el uso de la radiación solar (**EUR**, g MJ<sup>-1</sup>) se obtuvo del valor de la pendiente de la relación lineal entre la biomasa seca acumulada (g m<sup>-2</sup>) y la irradiancia solar acumulada transmitida por el plástico (MJ m<sup>-2</sup> d<sup>-1</sup>).
+
+### 5.7.5. Rendimiento cuántico, punto de saturación por luz, punto de compensación por luz, y tasa de asimilación neta.
+Para calcular el rendimiento cuántico (**Φ**, μmol de CO<sub>2</sub> μmol<sup>-1</sup> de fotones), punto de saturación por luz (**Psl**, μmol de fotones m<sup>-2</sup> s<sup>-1</sup>), punto de compensación por luz (**Pcl**, μmol de fotones m<sup>2</sup> s<sup>-1</sup>), y la capacidad fotosintética neta (**Fg**, μmol CO<sub>2</sub> m<sup>2</sup> s<sup>-1</sup>); se realizaron cinéticas fotosintéticas para cada ambiente con un equipo portátil para medir fotosíntesis marca LICOR® (Licor, Inc.; Lincoln, NE, EE. UU.) y un aditamento especial (6400-02B LED Light source) que permite controlar la intensidad de luz bajo un programa ya establecido; además, es capaz de controlar el flujo y concentración de CO<sub>2</sub> gracias a un dosificador de gas (6400-01 CO<sub>2</sub> Mixer).
+Se realizaron 3 cinéticas de crecimiento, una para cada tratamiento o ambiente (6-27, 6-35 y 6-40 °C) y con 3 repeticiones. Las cinéticas fotosintéticas se iniciaron alrededor de las 10:00 h y cada una de ellas se llevó a cabo en un día diferente (ambiente 6-27 °C el 20 de julio del 2017, 6-35 °C el 21 de julio del 2017 y el ambiente 6-40 °C el 19 de julio del 2017).
+Para realizar las mediciones en cada ambiente, se modificó el sistema de control (**SC**) para que mantuviera constante la temperatura del microtúnel. Cada temperatura del aire programada para el microtúnel coincidía con la temperatura programada en la cámara del equipo portátil de fotosíntesis, de tal forma que la temperatura del aire sería similar a la temperatura de la hoja evaluada.
+
+### 5.8. Análisis estadístico
+El análisis estadístico de los datos se llevó a cabo con el software R Development Core Team (2018), el cual funciona bajo un entorno libre para computación y gráficos estadísticos. En R® se ejecutó la prueba de “t-student” para determinar si existen diferencias significativas entre las variables y parámetros de cada tratamiento. Se hizo una comparación de medias bajo un análisis de contrastes para algunas variables respuesta. Se realizaron correlaciones entre las variables de crecimiento y morfológicas con cada una de las variables de temperatura.
+
