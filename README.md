@@ -152,7 +152,7 @@ Para obtener el área foliar (**AF**, m<sup>2</sup> planta<sup>-1</sup>), las ho
 <p align="center">
   <img src="https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/ImegeJ.png" alt="ImageJ">
 </p>
-<p align="center"><em>Figura 3. Software ImageJ utilizado para calcular el área foliar.</em></p>
+<p align="center"><strong>Figura 3. </strong>Software ImageJ utilizado para calcular el área foliar.</p>
 
 
 
