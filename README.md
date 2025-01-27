@@ -109,4 +109,15 @@ Como dispositivo de salida se usó un módulo genérico de 8 canales para contro
 Como interfaz de comunicación, se usó una placa ethernet genérica basada en el chip W5100 fabricada por la compañía Wiznet®. Esta interfaz de comunicación soporta los protocolos de comunicación: protocolo de internet (internet protocol o 𝐼𝑃), protocolo de control de transmisión (Transmission Control Protocol o 𝑇𝐶𝑃) y el protocolo de datagramas de usuario (User Datagram Protocol o 𝑈𝐷𝑃).  
 
 ### 5.4.7. Sistema de monitoreo
-Para construir el sistema de monitoreo (𝑆𝑀) en tiempo real del DCC, se usó el servidor “Internet of Things” (𝐼𝑂𝑇) que presta la compañía Ubidots®. Este servicio permite enlazar el 𝑆𝐶𝐶 con el servidor IOT para almacenar datos,
+Para construir el sistema de monitoreo (𝑆𝑀) en tiempo real del DCC, se usó el servidor “Internet of Things” (𝐼𝑂𝑇) que presta la compañía Ubidots®. Este servicio permite enlazar el 𝑆𝐶𝐶 con el servidor IOT para almacenar datos.
+
+#### Cuadro 6. Definición de tratamientos por fecha de cultivo
+
+| Fecha de cultivo | Temperatura del aire 𝑇𝑚í𝑛−𝑇𝑚á𝑥 (°C) | 𝑇1  | 𝑇2  | 𝑇3  |
+|------------------|--------------------------------------|------|------|------|
+| 𝐹1              | 6-27                                 | 6-35 | 6-40 |      |
+| 𝐹2              | 6-27                                 | 6-35 | 6-40 |      |
+
+Donde:  
+𝑇1, 𝑇2 y 𝑇3 son los tratamientos, y 𝐹1 y 𝐹2 son las fechas de cultivo.
+
