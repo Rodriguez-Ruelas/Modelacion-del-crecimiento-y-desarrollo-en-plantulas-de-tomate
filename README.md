@@ -239,3 +239,29 @@ $$ \Gamma = 42.7 + 1.68 \cdot (T_a - 25) + 0.012 \cdot (T_a - 25)^2 $$
 donde:
 - 𝛤 es el punto de compensación de CO<sub>2</sub>
 - 𝑇<sub>a</sub> es la temperatura del aire (°C)
+
+
+### 5.9.3.9. Rendimiento cuántico
+
+El rendimiento cuántico (𝜺, μg CO<sub>2</sub> J<sup>-1</sup>) se obtuvo mediante la corrección del rendimiento cuántico potencial con el punto de compensación de CO<sub>2</sub> de acuerdo con la ecuación propuesta por Goudriaan y Van Laar (2012):
+
+$$ \epsilon = \epsilon_0 \cdot \frac{C_a - \Gamma}{(C_a + 2) \cdot \Gamma} $$
+
+donde:
+- 𝜀 es el rendimiento cuántico actual (μg CO<sub>2</sub> J<sup>-1</sup>)
+- 𝜀<sub>0</sub> es el rendimiento cuántico potencial (μg CO<sub>2</sub> J<sup>-1</sup>)
+- 𝐶<sub>a</sub> es la concentración de CO<sub>2</sub> ambiental (μg CO<sub>2</sub> m<sup>-3</sup>)
+- 𝛤 es el punto de compensación de CO<sub>2</sub> (μg CO<sub>2</sub> m<sup>-3</sup>)
+
+### 5.9.3.10. Conductancia del mesófilo
+
+La conductancia del mesófilo (𝑔<sub>m</sub>, cm s<sup>-1</sup>) se calculó a partir de la interpolación de datos de una tabla que relaciona la temperatura ambiental (°C) con la conductancia estomática (cm s<sup>-1</sup>). Esta tabla (Cuadro 7) se obtuvo a partir de los datos propuestos por Bertin y Heuvelink (1993) para el modelo TOMSIM ver 1.0.
+
+**Cuadro 7. Cálculo de la conductancia del mesófilo (𝑔<sub>m</sub>).**
+
+| Temperatura del aire (°C) | Conductancia del mesófilo (cm s<sup>-1</sup>) |
+|---------------------------|----------------------------------------------|
+| 0                         | 0                                            |
+| 15                        | 0.4                                          |
+| 25                        | 0.4                                          |
+| 40                        | 0                                            |
