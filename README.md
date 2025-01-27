@@ -23,7 +23,7 @@ El modelo de predicción consta de 2 variables ambientales de entrada: la irradi
 </p>
 
 
-## Resultados destacados del análisis del resumen
+## Resultados
 
 1. **Grados días de desarrollo (GDD):**
    - Primera hoja: 114 GDD.
