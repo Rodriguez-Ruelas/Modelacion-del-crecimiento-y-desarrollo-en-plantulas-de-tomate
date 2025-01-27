@@ -191,6 +191,6 @@ donde:
 - 𝑇<sub>pr</sub> es la transmisión de la cubierta plástica de los microtúneles (%)
 - 𝐼<sub>fs</sub> es la irradiancia fotosintética sobre el cultivo (MJ m<sup>2</sup> s<sup>-1</sup>)
 - 𝐼<sub>i</sub> es la irradiancia solar al exterior del túnel (MJ m<sup>2</sup> s<sup>-1</sup>)
-- 𝐹𝑃𝐴𝑅 es la fracción de irradiancia solar sobre la banda fotosintética (adimensional)
+- 𝐹<𝑃𝐴𝑅> es la fracción de irradiancia solar sobre la banda fotosintética (adimensional)
 
 Se considera que 𝑇<sub>pr</sub> = 46 % y que 𝐹𝑃𝐴𝑅 = 0.50.
