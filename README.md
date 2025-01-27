@@ -93,11 +93,11 @@ Los microtúneles se diseñaron y construyeron utilizando Arduino, en conjunto c
 
 ### Sistema de control
 Para ajustar Ta a la curva de la función de Tac, se desarrolló un sistema de control (𝑆𝐶). El 𝑆𝐶 se diseñó a partir hardware y software “open source”. El hardware del 𝑆𝐶 consistió de cinco componentes:  
-  a) Dispositivo central de control (𝐷𝐶𝐶),  
-  b) Dispositivos de entrada (𝐷𝐸),  
-  c) Dispositivos de salida (𝐷𝑆),  
-  d) Dispositivo de comunicación (𝐷𝐶), y  
-  e) Sistema de monitoreo (𝑆𝑀).  
+  -a) Dispositivo central de control (𝐷𝐶𝐶),  
+  -b) Dispositivos de entrada (𝐷𝐸),  
+  -c) Dispositivos de salida (𝐷𝑆),  
+  -d) Dispositivo de comunicación (𝐷𝐶), y  
+  -e) Sistema de monitoreo (𝑆𝑀).  
 
 El software usado fue el compilador Arduino®.  
 
