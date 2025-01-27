@@ -219,7 +219,7 @@ donde:
 - 𝐼<sub>i</sub> es la irradiancia solar al exterior del túnel (MJ m<sup>2</sup> s<sup>-1</sup>)
 - 𝐹<sub>𝑃𝐴𝑅 es la fracción de irradiancia solar sobre la banda fotosintética (adimensional)
 
-Se considera que 𝑇<sub>pr</sub> = 46 % y que 𝐹<sub>𝑃𝐴𝑅 = 0.50.
+Se considera que 𝑇<sub>pr</sub> = 45 % y que 𝐹<sub>𝑃𝐴𝑅 = 0.50.
 
 ### 4.6.3. Temperatura media diaria
 
