@@ -318,3 +318,31 @@ Goudriaan y Van Laar (2012) proponen obtener la máxima capacidad fotosintética
 donde:
 - 𝐹<sub>𝑚𝑚</sub> es la máxima capacidad fotosintética (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>)
 
+### 5.9.3.14. Máxima tasa de asimilación
+
+La máxima tasa de asimilación (𝐹<sub>𝑛,𝑚𝑎𝑥</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>) es limitada ya sea por 𝐹<sub>𝑚𝑚</sub> o 𝐹<sub>𝑛𝑐</sub>. Basados en esto, el valor de 𝐹<sub>𝑛,𝑚𝑎𝑥</sub> fue determinado por el valor menor entre 𝐹<sub>𝑚𝑚</sub> y 𝐹<sub>𝑛𝑐</sub>.
+
+### 5.9.3.15. Tasa de respiración obscura
+
+La tasa de respiración obscura (𝑅<sub>d</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>) es calculada a partir de la ecuación:
+
+$$
+R_d = P_Rd \cdot Q_{10}^{\frac{T_a - T_r}{10}}
+$$
+
+donde:
+- 𝑅<sub>d</sub> es la tasa de respiración obscura (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>)
+- 𝑃<sub>Rd</sub> es la tasa respiración en función de la temperatura de referencia (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>)
+- 𝑄<sub>10</sub> es el coeficiente de temperatura
+- 𝑇<sub>a</sub> es la temperatura del aire (°C)
+- 𝑇<sub>r</sub> es la temperatura de referencia (°C)
+
+Se considera 𝑄<sub>10</sub> = 2 y 𝑇<sub>r</sub> = 31.
+
+### 5.9.3.16. Máxima tasa de asimilación total
+
+La máxima tasa de asimilación total (𝐹<sub>g,max</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>) está determinada por la suma de 𝐹<sub>n,max</sub> y 𝑅<sub>d</sub>:
+
+$$
+F_{g,max} = F_{n,max} + R_d
+$$
