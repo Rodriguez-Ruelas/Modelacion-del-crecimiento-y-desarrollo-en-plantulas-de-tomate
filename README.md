@@ -22,34 +22,33 @@ El modelo de predicción consta de 2 variables ambientales de entrada: la irradi
   <strong>Figura 1.</strong> Diagrama de flujo para el modelado del crecimiento y desarrollo de plántulas de tomate.
 </p>
 
+## II. RESULTADOS
 
-## Resultados
-
-1. **Grados días de desarrollo (GDD):**
+2.1. **Grados días de desarrollo (GDD):**
    - Primera hoja: 114 GDD.
    - Segunda hoja: 184 GDD.
 
-2. **Temperaturas probadas:**
+2.2. **Temperaturas probadas:**
    - Rango de tratamientos: `T1: 12-29 °C` a `T6: 13-40 °C`.
 
-3. **Efecto de la temperatura en la biomasa:**
+2.3. **Efecto de la temperatura en la biomasa:**
    - Temperaturas máximas promedio (`Tmáx`) entre 29 y 40 °C influyeron significativamente (`P ≤ 0.05`) en:
      - Fracciones de biomasa asignadas a tallo y hoja.
      - Acumulación de biomasa en tallo.
    - `T6` y `T1` presentaron los mayores valores promedio en biomasa asignada.
 
-4. **Correlación de la longitud de tallo con temperatura:**
+2.4. **Correlación de la longitud de tallo con temperatura:**
    - `Tmd` (`R² = 0.75`), `Tm24h` (`R² = 0.79`) y `Tmn` (`R² = 0.71`).
    - `T4` presentó la mayor longitud de tallo, `T1` la menor.
 
-5. **Área foliar específica:**
+2.5. **Área foliar específica:**
    - Correlación con `Tmn` (`R² = 0.83`).
    - Mayor valor en `T4`, menor en `T1`.
 
-6. **Eficiencia en el uso de la radiación (EUR):**
+2.6. **Eficiencia en el uso de la radiación (EUR):**
    - No fue significativa (`P > 0.05`), aunque tuvo `R² = 0.73` con `Tmáx`.
 
-7. **Cinética de fotosíntesis:**
+2.7. **Cinética de fotosíntesis:**
    - Punto de saturación: 1000 μmol fotones m⁻² s⁻¹ a 28, 31 y 40 °C.
    - Punto de compensación:
      - 120 μmol fotones m⁻² s⁻¹ (28 °C).
@@ -59,7 +58,7 @@ El modelo de predicción consta de 2 variables ambientales de entrada: la irradi
      - Similar para 28 y 31 °C (0.06 mol CO₂ mol⁻¹ fotones).
      - Inferior a 40 °C (0.04 mol CO₂ mol⁻¹ fotones).
 
-8. **Modelo de predicción de biomasa total acumulada:**
+2.8. **Modelo de predicción de biomasa total acumulada:**
    - Coeficiente de correlación: 0.82.
    - Sobreestima con error medio porcentual: 46.7 %.
    - Biomasa por compartimiento:
@@ -67,26 +66,22 @@ El modelo de predicción consta de 2 variables ambientales de entrada: la irradi
      - **Hoja:** Sobreestimada (53.8 %).
      - **Raíz:** Mejor tendencia, pero error mayor (59.7 %).
 
-9. **Efecto de `Tmáx`:**
+2.9. **Efecto de `Tmáx`:**
    - Influyó en las relaciones fuente-demanda, causando diferencias en la longitud del tallo, una característica clave de la calidad de la plántula.
 
-## II. OBJETIVOS
+## III. OBJETIVOS
 
-### 2.1. Objetivo general
+### 3.1 Objetivo general
 Determinar el efecto de la temperatura máxima en el crecimiento y desarrollo de plántulas de tomate.
 
-### 2.2. Objetivos específicos
+### 3.2 Objetivos específicos
 - Determinar el efecto de la temperatura máxima en las variables y parámetros de crecimiento y desarrollo de plántulas de tomate.
 - Adaptar un modelo mecanicista al crecimiento y desarrollo de la plántula de tomate bajo condiciones de microtúneles de plástico.
 
-
-
-## Materiales y metodos
-
+## IV. MATERIALES Y METODOS
 ### Construcción de microtúneles
 
 Para establecer el experimento se construyeron 3 estructuras protegidas con forma de microtúneles. A cada microtúnel se le adaptó un ventilador como extractor de aire, un calefactor, una estructura de madera para evitar que las charolas de poliestireno estuvieran en contacto con el suelo, malla para cubrir el suelo de color blanco (*ground cover*) y plástico lechoso de 50 % de transmisión de radiación solar, el cual fue designado para cubrir las estructuras de invernaderos.
-
 
 ![Microtúneles](https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/Microtuneles.png)
 Fig. 
