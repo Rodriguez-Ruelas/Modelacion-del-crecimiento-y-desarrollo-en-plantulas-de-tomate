@@ -219,3 +219,23 @@ donde:
 
 La radiación absorbida por el follaje (𝐼, J m<sup>-2</sup> s<sup>-1</sup>) se calculó con la siguiente ecuación:
 
+$$ I = I_{fs} \cdot f $$
+
+donde:
+- 𝐼 es la irradiancia absorbida por el follaje (J m<sup>-2</sup> s<sup>-1</sup>)
+- 𝑓 es la fracción de radiación absorbida por el follaje
+- 𝐼<sub>fs</sub> es la irradiancia incidente sobre el follaje (J m<sup>-2</sup> s<sup>-1</sup>)
+
+### 5.9.3.7. Producción de asimilados
+
+La producción de asimilados es una adaptación de la propuesta hecha por Goudriaan y Van Laar (2012) para el cálculo de fotosíntesis neta en función de la temperatura. Sin embargo, se incorporaron algunos cálculos y parámetros de la bibliografía existente.
+
+### 5.9.3.8. Punto de compensación por CO2
+
+El punto de compensación por CO2 (𝛤, μg CO<sub>2</sub> m<sup>-3</sup>) fue calculado a partir de la propuesta por Brooks y Farquhar (1985) para el cultivo de espinaca. La ecuación que se usó fue:
+
+$$ \Gamma = 42.7 + 1.68 \cdot (T_a - 25) + 0.012 \cdot (T_a - 25)^2 $$
+
+donde:
+- 𝛤 es el punto de compensación de CO<sub>2</sub>
+- 𝑇<sub>a</sub> es la temperatura del aire (°C)
