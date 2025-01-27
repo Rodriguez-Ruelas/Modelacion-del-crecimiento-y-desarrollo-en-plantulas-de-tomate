@@ -67,6 +67,14 @@ Determinar el efecto de la temperatura máxima en el crecimiento y desarrollo de
 - Adaptar un modelo mecanicista al crecimiento y desarrollo de la plántula de tomate bajo condiciones de microtúneles de plástico.
 
 
+
+## Materiales y metodos
+
+### Construcción de microtúneles
+
+Para establecer el experimento se construyeron 3 estructuras protegidas con forma de microtúneles. A cada microtúnel se le adaptó un ventilador como extractor de aire, un calefactor, una estructura de madera para evitar que las charolas de poliestireno estuvieran en contacto con el suelo, malla para cubrir el suelo de color blanco (*ground cover*) y plástico lechoso de 50 % de transmisión de radiación solar, el cual fue designado para cubrir las estructuras de invernaderos. Las dimensiones de cada microtúnel se describen en el Cuadro 3.
+
+
 ![Microtúneles](https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/Microtuneles.png)
 
 
