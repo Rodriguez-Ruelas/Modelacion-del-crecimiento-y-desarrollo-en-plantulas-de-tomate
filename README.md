@@ -85,26 +85,28 @@ Los microtúneles se diseñaron y construyeron utilizando Arduino, en conjunto c
 Fig. 
 
 
+### 5.4.2. Sistema de control
+Para ajustar Ta a la curva de la función de Tac, se desarrolló un sistema de control (𝑆𝐶). El 𝑆𝐶 se diseñó a partir hardware y software “open source”. El hardware del 𝑆𝐶 consistió de cinco componentes:  
+a) Dispositivo central de control (𝐷𝐶𝐶),  
+b) Dispositivos de entrada (𝐷𝐸),  
+c) Dispositivos de salida (𝐷𝑆),  
+d) Dispositivo de comunicación (𝐷𝐶), y  
+e) Sistema de monitoreo (𝑆𝑀).  
+El software usado fue el compilador Arduino®.  
 
-El sistema de control (SC) para ajustar la temperatura del aire (Ta) a la curva de temperatura deseada (Tac), utilizando hardware y software de código abierto. 
+### 5.4.3. Construcción del dispositivo central de control
+Para la construcción del 𝐷𝐶𝐶 se dispuso de la plataforma Arduino® como centro de procesamiento, control y comunicación. Como 𝐷𝐶𝐶, se usó una placa Arduino MEGA®, basada en el microcontrolador ATmega1280 de la compañía ATMEL CORPORATION®. Esta placa Arduino® provee un total de 54 pines digitales que son usados como entrada o salida, además, tiene la posibilidad de asignar 16 de estos 54 pines como entradas y salidas analógicas.  
 
-El sistema incluye:
+### 5.4.4. Dispositivos de entrada
+Se usó un sensor digital de humedad relativa (%) y temperatura del aire (°C) modelo DHT22 para monitorear el estado climatológico de cada microtunel. El sensor digital DHT22 opera bajo el rango de 0 a 100 % de humedad relativa (𝐻𝑅) y de 40 a 80 °C. La resolución para calcular la HR fue de 0.1 % y para la temperatura fue 0.1 °C, mientras que la exactitud fue de ± 2 % para 𝐻𝑅 y de menos de ± 0.5 °C para la temperatura del aire.  
 
-- **Dispositivo central de control (DCC)**:  
-  Basado en una placa Arduino MEGA® que maneja entradas y salidas digitales y analógicas.
+Para registrar la fecha y hora de las lecturas en el microcontrolador, se usó un módulo 𝑅𝑇𝐶 basado en el chip DS3231 del fabricante DALLAS SEMICONDUCTOR®.  
 
-- **Dispositivos de entrada**:  
-  Sensores DHT22 para medir temperatura y humedad relativa, y un módulo RTC para registrar fecha y hora.
+### 5.4.5. Dispositivos de salida
+Como dispositivo de salida se usó un módulo genérico de 8 canales para controlar relevadores de 5 V y 10 A. Dicho módulo se usó como interruptor para los extractores y calefactores de cada microtúnel.  
 
-- **Dispositivos de salida**:  
-  Un módulo de relevadores para activar extractores y calefactores.
+### 5.4.6. Dispositivo de comunicación
+Como interfaz de comunicación, se usó una placa ethernet genérica basada en el chip W5100 fabricada por la compañía Wiznet®. Esta interfaz de comunicación soporta los protocolos de comunicación: protocolo de internet (internet protocol o 𝐼𝑃), protocolo de control de transmisión (Transmission Control Protocol o 𝑇𝐶𝑃) y el protocolo de datagramas de usuario (User Datagram Protocol o 𝑈𝐷𝑃).  
 
-- **Dispositivo de comunicación**:  
-  Una interfaz ethernet que soporta protocolos IP, TCP y UDP.
-
-- **Sistema de monitoreo (SM)**:  
-  Utiliza la plataforma IoT de Ubidots® para almacenamiento de datos, alertas móviles y control remoto.
-
-El SC monitorea Ta cada 5 segundos. Si la temperatura está por encima de Tac + 0.5 °C, activa el extractor de aire para enfriar; si está por debajo de Tac - 0.5 °C, enciende el calefactor. Ambos dispositivos se apagan al alcanzar Tac.
-
-
+### 5.4.7. Sistema de monitoreo
+Para construir el sistema de monitoreo (𝑆𝑀) en tiempo real del DCC, se usó el servidor “Internet of Things” (𝐼𝑂𝑇) que presta la compañía Ubidots®. Este servicio permite enlazar el 𝑆𝐶𝐶 con el servidor IOT para almacenar datos,
