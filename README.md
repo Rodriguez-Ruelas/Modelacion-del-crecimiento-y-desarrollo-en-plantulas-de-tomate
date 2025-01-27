@@ -93,33 +93,35 @@ Los microtúneles se diseñaron y construyeron utilizando Arduino, en conjunto c
 
 ### Sistema de control
 Para ajustar Ta a la curva de la función de Tac, se desarrolló un sistema de control (𝑆𝐶). El 𝑆𝐶 se diseñó a partir hardware y software “open source”. El hardware del 𝑆𝐶 consistió de cinco componentes:  
-a) Dispositivo central de control (𝐷𝐶𝐶),  
-b) Dispositivos de entrada (𝐷𝐸),  
-c) Dispositivos de salida (𝐷𝑆),  
-d) Dispositivo de comunicación (𝐷𝐶), y  
-e) Sistema de monitoreo (𝑆𝑀).  
+  a) Dispositivo central de control (𝐷𝐶𝐶),  
+  b) Dispositivos de entrada (𝐷𝐸),  
+  c) Dispositivos de salida (𝐷𝑆),  
+  d) Dispositivo de comunicación (𝐷𝐶), y  
+  e) Sistema de monitoreo (𝑆𝑀).  
+
 El software usado fue el compilador Arduino®.  
 
 ![Sistema de control](https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/Sistema%20de%20control.png)
 Fig. 
 
 
-a) **Dispositivo central de control (𝐷𝐶𝐶)**  
-Para la construcción del 𝐷𝐶𝐶 se dispuso de la plataforma Arduino® como centro de procesamiento, control y comunicación. Como 𝐷𝐶𝐶, se usó una placa Arduino MEGA®, basada en el microcontrolador ATmega1280 de la compañía ATMEL CORPORATION®. Esta placa Arduino® provee un total de 54 pines digitales que son usados como entrada o salida, además, tiene la posibilidad de asignar 16 de estos 54 pines como entradas y salidas analógicas.
+    a) **Dispositivo central de control (𝐷𝐶𝐶)**  
+        Para la construcción del 𝐷𝐶𝐶 se dispuso de la plataforma Arduino® como centro de procesamiento, control y comunicación. Como 𝐷𝐶𝐶, se usó una placa Arduino MEGA®, basada en el microcontrolador ATmega1280 de la compañía ATMEL CORPORATION®. Esta placa Arduino® provee un total de 54 pines digitales que son usados como entrada o salida, además, tiene la posibilidad de asignar 16 de estos 54 pines como entradas y salidas analógicas.
 
-b) **Dispositivos de entrada (𝐷𝐸)**  
-Se usó un sensor digital de humedad relativa (%) y temperatura del aire (°C) modelo DHT22 para monitorear el estado climatológico de cada microtúnel. El sensor digital DHT22 opera bajo el rango de 0 a 100 % de humedad relativa (𝐻𝑅) y de 40 a 80 °C. La resolución para calcular la HR fue de 0.1 % y para la temperatura fue 0.1 °C, mientras que la exactitud fue de ± 2 % para 𝐻𝑅 y de menos de ± 0.5 °C para la temperatura del aire.
+    b) **Dispositivos de entrada (𝐷𝐸)**  
+        Se usó un sensor digital de humedad relativa (%) y temperatura del aire (°C) modelo DHT22 para monitorear el estado climatológico de cada microtúnel. El sensor digital DHT22 opera bajo el rango de 0 a 100 % de humedad relativa (𝐻𝑅) y de 40 a 80 °C. La resolución para calcular la HR fue de 0.1 % y para la temperatura fue 0.1 °C, mientras que la exactitud fue de ± 2 % para 𝐻𝑅 y de menos de ± 0.5 °C para la temperatura del aire.
+        
+        Para registrar la fecha y hora de las lecturas en el microcontrolador, se usó un módulo 𝑅𝑇𝐶 basado en el chip DS3231 del fabricante DALLAS SEMICONDUCTOR®.
 
-Para registrar la fecha y hora de las lecturas en el microcontrolador, se usó un módulo 𝑅𝑇𝐶 basado en el chip DS3231 del fabricante DALLAS SEMICONDUCTOR®.
+    c) **Dispositivos de salida (𝐷𝑆)**  
+        Como dispositivo de salida se usó un módulo genérico de 8 canales para controlar relevadores de 5 V y 10 A. Dicho módulo se usó como interruptor para los extractores y calefactores de cada microtúnel.
 
-c) **Dispositivos de salida (𝐷𝑆)**  
-Como dispositivo de salida se usó un módulo genérico de 8 canales para controlar relevadores de 5 V y 10 A. Dicho módulo se usó como interruptor para los extractores y calefactores de cada microtúnel.
+    d) **Dispositivo de comunicación (𝐷𝐶)**  
+        Como interfaz de comunicación, se usó una placa ethernet genérica basada en el chip W5100 fabricada por la compañía Wiznet®. Esta interfaz de comunicación soporta los protocolos de comunicación: protocolo de internet (internet protocol o 𝐼𝑃), protocolo de control de transmisión (Transmission Control Protocol o 𝑇𝐶𝑃) y el protocolo de datagramas de usuario (User Datagram Protocol o 𝑈𝐷𝑃).
 
-d) **Dispositivo de comunicación (𝐷𝐶)**  
-Como interfaz de comunicación, se usó una placa ethernet genérica basada en el chip W5100 fabricada por la compañía Wiznet®. Esta interfaz de comunicación soporta los protocolos de comunicación: protocolo de internet (internet protocol o 𝐼𝑃), protocolo de control de transmisión (Transmission Control Protocol o 𝑇𝐶𝑃) y el protocolo de datagramas de usuario (User Datagram Protocol o 𝑈𝐷𝑃).
+    e) **Sistema de monitoreo (𝑆𝑀)**  
+        Para construir el sistema de monitoreo (𝑆𝑀) en tiempo real del DCC, se usó el servidor “Internet of Things” (𝐼𝑂𝑇) que presta la compañía Ubidots®. Este servicio permite enlazar el 𝑆𝐶𝐶 con el servidor IOT para almacenar datos.
 
-e) **Sistema de monitoreo (𝑆𝑀)**  
-Para construir el sistema de monitoreo (𝑆𝑀) en tiempo real del DCC, se usó el servidor “Internet of Things” (𝐼𝑂𝑇) que presta la compañía Ubidots®. Este servicio permite enlazar el 𝑆𝐶𝐶 con el servidor IOT para almacenar datos.
 
 
 ### Tratamientos
