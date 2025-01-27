@@ -167,114 +167,32 @@ Para realizar las mediciones en cada ambiente, se modificó el sistema de contro
 ### 5.8. Análisis estadístico
 El análisis estadístico de los datos se llevó a cabo con el software R Development Core Team (2018), el cual funciona bajo un entorno libre para computación y gráficos estadísticos. En R® se ejecutó la prueba de “t-student” para determinar si existen diferencias significativas entre las variables y parámetros de cada tratamiento. Se hizo una comparación de medias bajo un análisis de contrastes para algunas variables respuesta. Se realizaron correlaciones entre las variables de crecimiento y morfológicas con cada una de las variables de temperatura.
 
-## 5.9. Modelo de crecimiento
+## 5.9.3. Componentes del modelo
 
-### 5.9.1. Generalidades
+### 5.9.3.1. Parámetros iniciales
 
-El modelo de predicción propuesto es una simplificación del modelo de Heuvelink (2005) para la producción de tomate en invernadero, solo que nuestro modelo no contempla la producción de fruto ni las variables de estado, parámetros y tasas de cambio relacionadas, ya que la producción de plántulas en invernadero se extiende solo hasta la aparición de las primeras hojas extendidas. Los valores para los parámetros requeridos por el modelo fueron obtenidos a partir de la literatura y experimentalmente.
+Los parámetros iniciales que necesita el modelo propuesto son:
+- Biomasa seca inicial total (B<sub>stot,i</sub>, g m<sup>-2</sup>)
+- Biomasa seca inicial tallo (B<sub>st,i</sub>, g m<sup>-2</sup>)
+- Biomasa seca inicial hoja (B<sub>sh,i</sub>, g m<sup>-2</sup>)
+- Biomasa seca inicial raíz (B<sub>sr,i</sub>, g m<sup>-2</sup>)
+- Índice de área foliar inicial (IAF<sub>i</sub>, m<sup>2</sup> m<sup>-2</sup>)
+- Grados días desarrollo acumulados inicial (GDD<sub>i</sub>, adimensional)
 
-El modelo se construyó con base en las investigaciones de Goudriaan y Van Laar (2012) y Heuvelink (2005). Se usó la denominación de variables original descritas por Goudriaan y Van Laar (2012). El cálculo de grados día desarrollo (𝐺𝐷𝐷) se hizo a partir del método sugerido por Manrique y Hodges (1989). Por otro lado, la eficiencia en el uso de la radiación (𝐸𝑈𝑅) y la partición de fotoasimilados a los diferentes órganos de la plántula de tomate fueron obtenidos experimentalmente.
+Cada valor para las variables iniciales se obtuvieron a partir del primer muestreo de cada tratamiento para las dos fechas de cultivo.
 
-El modelo de predicción consta de 2 variables ambientales de entrada: la irradiancia solar (J m<sup>-2</sup> s<sup>-1</sup>) y la temperatura del aire (𝑇<sub>a</sub>, °C). Las variables de estado: biomasa total (𝐵<sub>stot</sub>, g m<sup>-2</sup>), tallo (𝐵<sub>st</sub>, g m<sup>-2</sup>), hoja (𝐵<sub>sh</sub>, g m<sup>-2</sup>) y raíz (𝐵<sub>sr</sub>, g m<sup>-2</sup>).
+### 5.9.3.2. Irradiancia fotosintética sobre el cultivo
 
-### 5.9.2. Construcción del modelo
-
-El modelo se creó en el lenguaje de programación C++. El código fue escrito bajo el compilador DEV-C++ desarrollado por Bloodshed Software hasta 2005 y Orwell (Johan Mes) desde 2011 usando programación estructurada.
-
-### 5.9.3. Componentes del modelo
-
-#### 5.9.3.1. Parámetros iniciales
-
-Los parámetros iniciales que necesita el modelo propuesto son: biomasa seca inicial total (Bstot,i g m<sup>-2</sup>), biomasa seca inicial tallo (Bst,i g m<sup>-2</sup>), biomasa seca inicial hoja (Bsh,i, g m<sup>-2</sup>), biomasa seca inicial raíz (Bsr,i, g m<sup>-2</sup>), índice de área foliar inicial (𝐼𝐴𝐹<sub>i</sub>, m<sup>2</sup> m<sup>-2</sup>) y grados días desarrollo acumulados inicial (𝐺𝐷𝐷<sub>i</sub>, adim). Cada valor para las variables iniciales se obtuvieron a partir del primer muestreo de cada tratamiento para las dos fechas de cultivo.
-
-#### 5.9.3.2. Irradiancia fotosintética sobre el cultivo
-
-La Irradiancia fotosintética sobre el cultivo (𝐼<sub>fs</sub>, MJ m<sup>-2</sup> d<sup>-1</sup>) se calculó con la siguiente ecuación:
+La irradiancia fotosintética sobre el cultivo (I<sub>fs</sub>, MJ m<sup>-2</sup> d<sup>-1</sup>) se calculó con la siguiente ecuación:
 
 \[
-I_{fs} = I_i \times \left( \frac{T_{pr}}{100} \right) \times FPAR
+I_{fs} = I_i \cdot \left( \frac{T_{pr}}{100} \right) \cdot FPAR
 \]
 
 donde:
-- 𝑇<sub>pr</sub> es la transmisión de la cubierta plástica de los microtúneles (%);
-- 𝐼<sub>fs</sub> es la Irradiancia fotosintética sobre el cultivo (MJ m<sup>2</sup> s<sup>-1</sup>);
-- 𝐼<sub>i</sub> es la Irradiancia solar al exterior del túnel (MJ m<sup>2</sup> s<sup>-1</sup>);
-- FPAR es la Fracción de irradiancia solar sobre la banda fotosintética (Adim);
-se considera que 𝑇<sub>pr</sub> = 46 % y que FPAR = 0.50.
+- 𝑇<sub>pr</sub> es la transmisión de la cubierta plástica de los microtúneles (%)
+- 𝐼<sub>fs</sub> es la irradiancia fotosintética sobre el cultivo (MJ m<sup>2</sup> s<sup>-1</sup>)
+- 𝐼<sub>i</sub> es la irradiancia solar al exterior del túnel (MJ m<sup>2</sup> s<sup>-1</sup>)
+- 𝐹𝑃𝐴𝑅 es la fracción de irradiancia solar sobre la banda fotosintética (adimensional)
 
-#### 5.9.3.3. Temperatura media diaria
-
-La temperatura media diaria (𝑇<sub>m24h</sub>, °C) diaria se obtuvo del promedio de la 𝑇<sub>a</sub> cada 15 min obtenida de los registradores electrónicos Hobo® en cada microtúnel.
-
-#### 5.9.3.4. Desarrollo fenológico
-
-La acumulación de grados días desarrollo (𝐺𝐷𝐷) en cada evento fenológico se obtuvo mediante el método de Manrique y Hodges (1989). La temperatura óptima de crecimiento (𝑇<sub>opt</sub>), temperatura mínima de crecimiento o temperatura base (𝑇<sub>b</sub>) y la temperatura máxima de crecimiento (𝑇<sub>mc</sub>), se obtuvieron con base en la metodología descrita en el apartado 5.7.2.
-
-#### 5.9.3.5. Fracción de radiación absorbida por el cultivo
-
-La fracción de radiación absorbida (𝑓, adim) se calculó con base en una adaptación a la ley de Beer-Lambert:
-
-\[
-f = 1 - e^{-k \times IAF}
-\]
-
-donde:
-- 𝑓 es la fracción de radiación absorbida (adim);
-- 𝑘 es el coeficiente de extinción (adim);
-- IAF es el índice de área foliar (m<sup>2</sup> m<sup>-2</sup>);
-- 𝑒 es el número de Euler (adim).
-
-#### 5.9.3.6. Radiación absorbida por el follaje
-
-La radiación absorbida por el follaje (𝐼, J m<sup>-2</sup> s<sup>-1</sup>) se calculó con la siguiente ecuación:
-
-\[
-I = I_{fs} \times f
-\]
-
-donde:
-- 𝐼 es la irradiancia absorbida por el follaje (J m<sup>-2</sup> s<sup>-1</sup>);
-- 𝑓 es la fracción de radiación absorbida por el follaje;
-- 𝐼<sub>fs</sub> es la irradiancia incidente sobre el follaje (J m<sup>-2</sup> s<sup>-1</sup>).
-
-#### 5.9.3.7. Producción de asimilados
-
-La producción de asimilados es una adaptación de la propuesta hecha por Goudriaan y Van Laar (2012) para el cálculo de fotosíntesis neta en función de la temperatura. Sin embargo, se incorporaron algunos cálculos y parámetros de la bibliografía existente.
-
-#### 5.9.3.8. Punto de compensación por CO2
-
-El Punto de compensación por CO2 (𝛤, μg CO2 m<sup>-3</sup>) fue calculado a partir de la propuesta por Brooks y Farquhar (1985) para el cultivo de espinaca. La ecuación que se usó fue:
-
-\[
-\Gamma = 42.7 + 1.68 \times (T_a - 25) + 0.012 \times (T_a - 25)^2
-\]
-
-donde:
-- 𝛤 es el punto de compensación de CO2;
-- 𝑇<sub>a</sub> es la temperatura del aire (°C).
-
-#### 5.9.3.9. Rendimiento cuántico
-
-El rendimiento cuántico (𝜺, μg CO2 J<sup>-1</sup>) se obtuvo mediante la corrección del rendimiento cuántico potencial con el punto de compensación de CO2 de acuerdo con la ecuación propuestas por Goudriaan y Van Laar (2012):
-
-\[
-\epsilon = \epsilon_0 \times \frac{C_a - \Gamma}{(C_a + 2)} \times \Gamma
-\]
-
-donde:
-- 𝜖 es el rendimiento cuántico actual (μg CO2 J<sup>-1</sup>);
-- 𝜖<sub>0</sub> es el rendimiento cuántico potencial (μg CO2 J<sup>-1</sup>);
-- 𝐶<sub>a</sub> es la concentración de CO2 ambiental (μg CO2 m<sup>-3</sup>);
-- 𝛤 es el punto de compensación de CO2 (μg CO2 m<sup>-3</sup>).
-
-#### 5.9.3.10. Conductancia del mesófilo
-
-La Conductancia del mesófilo (𝑔<sub>m</sub>, cm s<sup>-1</sup>) se calculó a partir de la interpolación de datos de una tabla que relaciona la temperatura ambiental (°C) con la conductancia estomática (cm s<sup>-1</sup>).
-
-##### Cuadro 7. Cálculo de la conductancia del mesófilo (𝑔<sub>m</sub>)
-
-| Temperatura del aire (°C) | Conductancia del mesófilo (cm s<sup>-1</sup>) |
-|---------------------------|-------------------------------------------|
-| 25                        | 0.105                                       |
-| 30                        | 0.128                                       |
-| 35                        | 0.142                                       |
+Se considera que 𝑇<sub>pr</sub> = 46 % y que 𝐹𝑃𝐴𝑅 = 0.50.
