@@ -379,3 +379,26 @@ donde:
 - 𝐹<sub>g</sub> es la tasa de asimilación total (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>);
 - 𝑅<sub>d</sub> es la respiración actual (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>).
 
+
+### 5.9.3.19. Repartición de asimilados
+
+La repartición de asimilados de la planta fue determinada a partir de los datos de campo correspondientes a la cantidad de biomasa acumulada en órganos. De esta forma, la fracción de asimilados destinados para cada órgano es obtenida a partir de un factor de conversión correspondiente al porcentaje de asimilados asignados a tallo, hoja y raíz.
+
+### 5.9.3.20. Índice de área foliar
+
+El Índice de área foliar (𝐼𝐴𝐹, m<sup>2</sup> m<sup>-2</sup>) es calculado al final del cálculo de la producción y repartición de asimilados con la ecuación:
+
+$$
+IAF_n = AFE \cdot F_h \cdot F_n
+$$
+
+donde:
+- 𝐼𝐴𝐹<sub>n</sub> es el nuevo índice de área foliar (m<sup>2</sup> m<sup>-2</sup>);
+- 𝐴𝐹𝐸 es el área foliar específica (m<sup>2</sup> g<sup>-1</sup>);
+- 𝐹<sub>h</sub> es la fracción de fotoasimilados asignados a la hoja;
+- 𝐹<sub>n</sub> es la tasa de asimilación neta (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>).
+
+### 5.9.4. Evaluación del desempeño o precisión del modelo de crecimiento
+
+Para la evaluación del modelo propuesto se hizo un análisis del error mediante la comparación en el plano cartesiano de los datos observados y modelados. Se llevaron a cabo 4 análisis entre estas dos variables, uno por cada variable de biomasa acumulada (total, tallo, hoja y raíz). A partir de esta comparación se realizó una regresión lineal para conocer cuál era la capacidad predictiva, así como su exactitud (valor de 𝑟<sup>2</sup>).
+
