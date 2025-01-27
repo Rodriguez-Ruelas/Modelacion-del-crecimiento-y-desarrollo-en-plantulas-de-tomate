@@ -18,6 +18,7 @@ El modelo se construyó con base en las investigaciones de Goudriaan y Van Laar 
 El modelo de predicción consta de 2 variables ambientales de entrada: la irradiancia solar (J m-2 s-1) y la temperatura del aire (𝑇𝑎, °C). Las variables de estado: biomasa total (𝐵𝑠𝑡𝑜𝑡, g m-2) tallo (𝐵𝑠𝑡, g m-2), hoja (𝐵𝑠ℎ, g m-2) y raíz (𝐵𝑠𝑟, g m-2).
 
 ![Diagrama de flujo](https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/Diagrama%20de%20flujo.png)
+**Figura 1.** Diagrama de flujo para el modelado del crecimiento y desarrollo de plántulas de tomate.
 
 
 ## Resultados destacados del análisis del resumen
