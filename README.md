@@ -1,5 +1,23 @@
 # 🌱📊 MODELACIÓN DEL CRECIMIENTO Y DESARROLLO EN PLÁNTULAS DE TOMATE 🍅
 
+# 🌱 **Antes de lo formal...**  
+
+Para muchos de nosotros, los agrónomos, modelar el crecimiento y desarrollo de los cultivos siempre ha sonado demasiado abstracto, incluso innecesario. Pero esa percepción cambia cuando ves compañías como **PRIVA**, que han desarrollado sistemas capaces de controlar casi por completo un invernadero y optimizar cada variable climática para mejorar la producción.  
+
+Antes del doctorado, siempre tuve curiosidad, no solo por operar estos sistemas, sino por entender **cómo estaban diseñados**. Me preguntaba qué procesos fisiológicos estaban involucrados y cómo se podían medir: **fotosíntesis, respiración, transpiración, nutrición**, o incluso el impacto de **plagas y enfermedades**, por mencionar algunos. Y lo más importante:  
+
+### ❓ *¿Cómo juntamos todo eso para hacer predicciones?*  
+
+¿Fue fácil? **No.** La verdad, entrar en el diseño del equipo para controlar el experimento fue un reto enorme para alguien con formación agrícola. Pero, como dicen en mi casa:  
+
+> *"Sin miedo a nada."*  
+
+Luego vino la programación, otra habilidad que tuve que integrar en el proyecto. Y vaya que programar puede ser un **dolor de cabeza**. Pero pensar como programador te cambia la forma de abordar los problemas, te obliga a ver las cosas desde otro ángulo.  
+
+### 🚀 **Lo que más disfruté**  
+La integración de los procesos fisiológicos fue lo que más me apasionó, porque **es mi trabajo y lo que realmente disfruto**. Pero al final, no deja de ser un trabajo de **paciencia y prueba constante**, de buscar **cómo hacer que las cosas funcionen aunque parezcan imposibles.**  
+
+
 ## I. INTRODUCCION
 
 La producción de tomate en invernadero es una actividad económica muy importante en el mundo. Con el paso del tiempo y la gran cantidad de descubrimientos científicos en fisiología de plantas, se ha logrado entender cómo la fotosíntesis, respiración y otros procesos fisiológicos son fundamentales para entender el crecimiento y desarrollo de las plantas. Con la incorporación de otras ciencias como física, química, informática y la electrónica en la investigación y producción agrícola, se ha podido lograr la abstracción de algunas partes que componen un sistema agrícola.
