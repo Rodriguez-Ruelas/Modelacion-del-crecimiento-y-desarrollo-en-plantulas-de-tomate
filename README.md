@@ -17,6 +17,10 @@ Luego vino la programación, otra habilidad que tuve que integrar en el proyecto
 ### 🚀 **Lo que más disfruté**  
 La integración de los procesos fisiológicos fue lo que más me apasionó, porque **es mi trabajo y lo que realmente disfruto**. Pero al final, no deja de ser un trabajo de **paciencia y prueba constante**, de buscar **cómo hacer que las cosas funcionen aunque parezcan imposibles.**  
 
+### 🔧 **Un modelo adaptable**  
+Lo mejor es que este modelo **no es rígido**, es modular y permite la integración de nuevas variables. Aspectos como **nutrición, riego o fitosanidad** pueden añadirse para afinar aún más la predicción del crecimiento y mejorar la toma de decisiones en el manejo de cultivos.  
+
+Porque al final, eso es lo que buscamos: **herramientas que nos permitan entender mejor las plantas y optimizar su desarrollo.**
 
 ## I. INTRODUCCION
 
