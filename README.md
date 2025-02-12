@@ -4,6 +4,11 @@
 
 Para muchos de nosotros, los agrónomos, modelar el crecimiento y desarrollo de los cultivos siempre ha sonado demasiado abstracto, incluso innecesario. Pero esa percepción cambia cuando ves compañías como **PRIVA**, que han desarrollado sistemas capaces de controlar casi por completo un invernadero y optimizar cada variable climática para mejorar la producción.  
 
+<p align="center">
+  <img src="https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/raw/main/Imagenes_README/PRIVA.png" alt="Sistema PRIVA" width="500">
+</p>
+
+
 Antes del doctorado, siempre tuve curiosidad, no solo por operar estos sistemas, sino por entender **cómo estaban diseñados**. Me preguntaba qué procesos fisiológicos estaban involucrados y cómo se podían medir: **fotosíntesis, respiración, transpiración, nutrición**, o incluso el impacto de **plagas y enfermedades**, por mencionar algunos. Y lo más importante:  
 
 ### ❓ *¿Cómo juntamos todo eso para hacer predicciones?*  
