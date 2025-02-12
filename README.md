@@ -9,7 +9,7 @@ Para muchos de nosotros, los agrónomos, modelar el crecimiento y desarrollo de 
 </p>
 
 <p align="center">
-  <small>Figura 1. Software PRIVA®. Fuente: [PRIVA](https://www.priva.com/)</small>
+  <strong><small>Figura 1.<strong> Software PRIVA®. Fuente: [PRIVA](https://www.priva.com/)</small>
 </p>
 
 
