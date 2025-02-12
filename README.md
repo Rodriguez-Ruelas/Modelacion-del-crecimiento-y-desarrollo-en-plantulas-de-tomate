@@ -9,9 +9,8 @@ Para muchos de nosotros, los agrónomos, modelar el crecimiento y desarrollo de 
 </p>
 
 <p align="center">
-  <strong><small>Figura 1.<strong> Software PRIVA®. Fuente: [PRIVA](https://www.priva.com/)</small>
+  <small><strong>Figura 1.</strong> Software PRIVA. Fuente: [PRIVA](https://www.priva.com/)</small>
 </p>
-
 
 Antes del doctorado, siempre tuve curiosidad, no solo por operar estos sistemas, sino por entender **cómo estaban diseñados**. Me preguntaba qué procesos fisiológicos estaban involucrados y cómo se podían medir: **fotosíntesis, respiración, transpiración, nutrición**, o incluso el impacto de **plagas y enfermedades**, por mencionar algunos. Y lo más importante:  
 
@@ -50,7 +49,7 @@ El modelo de predicción consta de 2 variables ambientales de entrada: la irradi
 
 ![Diagrama de flujo](https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/Diagrama%20de%20flujo.png)
 <p align="center">
-  <strong>Figura 1.</strong> Diagrama de flujo para el modelado del crecimiento y desarrollo de plántulas de tomate.
+  <strong>Figura 2.</strong> Diagrama de flujo para el modelado del crecimiento y desarrollo de plántulas de tomate.
 </p>
 
 
