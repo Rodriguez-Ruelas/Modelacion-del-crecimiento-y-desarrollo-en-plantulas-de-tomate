@@ -16,7 +16,7 @@ Antes del doctorado, siempre tuve curiosidad, no solo por operar estos sistemas,
 
 ## Índice del Proyecto
 
-- [I. INTRODUCCIÓN](#i-introducción)
+- [I. INTRODUCCIÓN](## I. INTRODUCCION)
   - [Modelo de Predicción](#modelo-de-predicción)
   - [Parámetros y Cálculos](#parámetros-y-cálculos)
   - [Variables del Modelo](#variables-del-modelo)
