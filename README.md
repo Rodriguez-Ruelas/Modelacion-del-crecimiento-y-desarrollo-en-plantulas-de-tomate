@@ -97,7 +97,7 @@ e) **Sistema de monitoreo (𝑆𝑀)**
 Para construir el sistema de monitoreo (𝑆𝑀) en tiempo real del DCC, se usó el servidor “Internet of Things” (𝐼𝑂𝑇) que presta la compañía Ubidots®. Este servicio permite enlazar el 𝑆𝐶𝐶 con el servidor IOT para almacenar datos.
 
 ### 3.2. Datos para el modelo (Variables y parámetros)
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.1 Variables
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.1. Variables
 
 a) ***Biomasa seca total y por órgano vegetal***
 
@@ -125,9 +125,10 @@ c) ***Índice de área foliar***
 
 El índice de área foliar (**IAF**, m<sup>2</sup> hoja m<sup>-2</sup> superficie) se calculó a partir del promedio de **AF** (m<sup>2</sup> planta<sup>-1</sup>) de cuatro plantas por tratamiento, el cual se multiplicó por la densidad de plantas por metro cuadrado (899.1).
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.5. Cálculo de parámetros de las plántulas de tomate
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.2. Cálculo de parámetros de las plántulas de tomate
 
-#### 3.5.1. Coeficiente de extinción
+a) ***Coeficiente de extinción***
+
 El coeficiente de extinción (**k**) se calculó a partir de mediciones de irradiancia fotosintética sobre (**I<sub>o</sub>**, μmol·m<sup>-2</sup>·s<sup>-1</sup>) y debajo (**IIAF**, μmol·m<sup>-2</sup>·s<sup>-1</sup>) del follaje del cultivo con un radiómetro lineal LI-1500 (LI-COR®, Inc.), y el **IAF** obtenido al momento de hacer la medición. La ecuación usada para calcular **k** fue:
 
 $$
@@ -144,13 +145,16 @@ donde:
 </p>
 <p align="center"><strong>Figura 4. </strong>Mediciones con el radiómetro lineal. A). Por encima del dosel y B). Por debajo del dosel.</p>
 
-#### 3.5.2 Área foliar específica
+b) ***Área foliar específica***
+
 El área foliar específica (**AFE**, m<sup>2</sup> g<sup>-1</sup>) se calculó a partir de la relación entre el **AF** (m<sup>2</sup>) y el peso del área foliar (**B<sub>sh</sub>**, g m<sup>-2</sup>) promedio de cuatro plantas por tratamiento.
 
-#### 3.5.3 Eficiencia en el uso de la radiación solar
+c) ***Eficiencia en el uso de la radiación solar***
+
 La eficiencia en el uso de la radiación solar (**EUR**, g MJ<sup>-1</sup>) se obtuvo del valor de la pendiente de la relación lineal entre la biomasa seca acumulada (g m<sup>-2</sup>) y la irradiancia solar acumulada transmitida por el plástico (MJ m<sup>-2</sup> d<sup>-1</sup>).
 
-#### 3.5.4 Rendimiento cuántico, punto de saturación por luz, punto de compensación por luz, y tasa de asimilación neta.
+d) ***Rendimiento cuántico, punto de saturación por luz, punto de compensación por luz, y tasa de asimilación neta***
+
 Para calcular el rendimiento cuántico (**Φ**, μmol de CO<sub>2</sub> μmol<sup>-1</sup> de fotones), punto de saturación por luz (**Psl**, μmol de fotones m<sup>-2</sup> s<sup>-1</sup>), punto de compensación por luz (**Pcl**, μmol de fotones m<sup>2</sup> s<sup>-1</sup>), y la capacidad fotosintética neta (**Fg**, μmol CO<sub>2</sub> m<sup>2</sup> s<sup>-1</sup>); se realizaron cinéticas fotosintéticas para cada ambiente con un equipo portátil para medir fotosíntesis marca LICOR® (Licor, Inc.; Lincoln, NE, EE. UU.) y un aditamento especial (6400-02B LED Light source) que permite controlar la intensidad de luz bajo un programa ya establecido; además, es capaz de controlar el flujo y concentración de CO<sub>2</sub> gracias a un dosificador de gas (6400-01 CO<sub>2</sub> Mixer).
 Se realizaron 3 cinéticas de crecimiento, una para cada tratamiento o ambiente (6-27, 6-35 y 6-40 °C) y con 3 repeticiones. Las cinéticas fotosintéticas se iniciaron alrededor de las 10:00 h y cada una de ellas se llevó a cabo en un día diferente (ambiente 6-27 °C el 20 de julio del 2017, 6-35 °C el 21 de julio del 2017 y el ambiente 6-40 °C el 19 de julio del 2017).
 Para realizar las mediciones en cada ambiente, se modificó el sistema de control (**SC**) para que mantuviera constante la temperatura del microtúnel. Cada temperatura del aire programada para el microtúnel coincidía con la temperatura programada en la cámara del equipo portátil de fotosíntesis, de tal forma que la temperatura del aire sería similar a la temperatura de la hoja evaluada.
@@ -161,7 +165,7 @@ Para realizar las mediciones en cada ambiente, se modificó el sistema de contro
 
 <p align="center"><strong>Figura 5. </strong>Cinética de CO<sub>2</sub> usando el sistema de análisis infrarrojo de gases (IRGA, por sus siglas en inglés de "InfraRed Gas Analyzer").</p>
 
-## 3.6 Componentes del modelo
+## 3.3 Modelo
 
 #### 3.6.1. Parámetros iniciales
 
