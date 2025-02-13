@@ -65,7 +65,7 @@ Para establecer el experimento se construyeron 3 estructuras protegidas con form
 
 Los microtúneles se diseñaron y construyeron utilizando Arduino, en conjunto con el servicio de Ubidots, una plataforma de IoT (Internet of Things) para monitoreo y control de dispositivos. La capacidad de diseñar y construir nuestros propios instrumentos de experimentación es fundamental para explorar y someter a las plantas a los tratamientos correspondientes que se desean evaluar.
 
-#### &nbsp;&nbsp;&nbsp;3.1.2 Sistema de control
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.2 Sistema de control
 
 Para ajustar Ta a la curva de la función de Tac, se desarrolló un sistema de control (𝑆𝐶). El 𝑆𝐶 se diseñó a partir hardware y software “open source”. El hardware del 𝑆𝐶 consistió de cinco componentes:  
   - a) Dispositivo central de control (𝐷𝐶𝐶),  
@@ -96,28 +96,17 @@ Como interfaz de comunicación, se usó una placa ethernet genérica basada en e
 e) **Sistema de monitoreo (𝑆𝑀)**  
 Para construir el sistema de monitoreo (𝑆𝑀) en tiempo real del DCC, se usó el servidor “Internet of Things” (𝐼𝑂𝑇) que presta la compañía Ubidots®. Este servicio permite enlazar el 𝑆𝐶𝐶 con el servidor IOT para almacenar datos.
 
-### 3.3. Tratamientos
- 
-### Definición de tratamientos por fecha de cultivo 
-| Fecha de cultivo | 𝑇1    | 𝑇2   | 𝑇3   |
-|------------------|-------|-------|-------|
-| **𝐹1**           | 6-27  | 6-35  | 6-40  |
-| **𝐹2**           | 6-27  | 6-35  | 6-40  |
+### 3.2. Datos para el modelo (Variables y parámetros)
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.1 Variables
 
-
-Donde:  
-𝑇1, 𝑇2 y 𝑇3 son los tratamientos, y 𝐹1 y 𝐹2 son las fechas de cultivo.
-
-### 3.4. Variables fisiológicas
-
-#### 3.4.1. Biomasa seca total y por órgano vegetal
+a) **Biomasa seca total y por órgano vegetal**
 Se calcularon las variables de biomasa total (**B<sub>stot</sub>**, g m<sup>-2</sup>), tallo (**B<sub>st</sub>**, g m<sup>-2</sup>), hoja (**B<sub>sh</sub>**, g m<sup>-2</sup>) y raíz (**B<sub>sr</sub>**, g m<sup>-2</sup>).
 Con los datos de biomasa seca acumulada total y en cada órgano, se calculó la fracción de fotoasimilados asignado a cada órgano vegetal; fracción de fotoasimilados asignados a hoja (**F<sub>h</sub>**, %), fracción de fotoasimilados asignados a tallo (**F<sub>t</sub>**, %) y fracción de fotoasimilados a raíz (**F<sub>r</sub>**, %).
 
-#### 3.4.2. Longitud de tallo
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.2. Longitud de tallo
 La longitud del tallo (**L<sub>t</sub>**, cm) se midió después de la división de la plántula. Este inicio desde el primer nudo hasta la punta del tallo. Para esta medición se usó un flexómetro marca Truper®.
 
-#### 3.4.3. Ancho de tallo
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.3. Ancho de tallo
 El ancho de tallo (**A<sub>t</sub>**, mm) se midió a la mitad del primer entrenudo de las plantas diseccionadas con un vernier digital de la marca Truper®.
 
 #### 3.4.4. Área foliar
