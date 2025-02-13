@@ -228,27 +228,31 @@ La acumulación de grados días desarrollo (GDD) en cada evento fenológico se o
 
 Para evaluar el desarrollo del cultivo, se consideró el momento en que el 50% de las plántulas alcanzaron los siguientes eventos fenológicos: emergencia de plántula, cotiledones extendidos, primera hoja y segunda hoja. Además, se calculó el tiempo térmico mediante los Grados Día de Desarrollo (GDD) utilizando el método de Manrique y Hodges (1989):
 
-- Si $T_{\text{m24h}} < T_b$:
-  $$ 
-  \text{GDD} = 0 
-  $$
+Si la temperatura media diaria es menor que la temperatura base:
 
-- Si $T_b \leq T_{\text{m24h}} < T_{\text{opt}}$:
-  $$ 
-  \text{GDD} = K \cdot \left[ 1 - \frac{(T_{\text{m24h}} - T_b)^2}{(T_{\text{opt}} - T_b)^2} \right] 
-  $$
+$$
+\text{GDD} = 0
+$$
 
-- Si $T_{\text{opt}} \leq T_{\text{m24h}} < T_{\text{mc}}$:
-  $$ 
-  \text{GDD} = K \cdot \left[ 1 - \frac{(T_{\text{m24h}} - T_b)^2}{(T_{\text{mc}} - T_{\text{opt}})^2} \right] 
-  $$
+Si la temperatura media diaria está entre la temperatura base y la temperatura óptima:
 
-- Si $T_{\text{m24h}} \geq T_{\text{mc}}$:
-  $$ 
-  \text{GDD} = 0 
-  $$
+$$
+\text{GDD} = K \cdot \left[ 1 - \frac{(T_{\text{m24h}} - T_b)^2}{(T_{\text{opt}} - T_b)^2} \right]
+$$
 
-Donde:
+Si la temperatura media diaria está entre la temperatura óptima y la temperatura máxima de crecimiento:
+
+$$
+\text{GDD} = K \cdot \left[ 1 - \frac{(T_{\text{m24h}} - T_b)^2}{(T_{\text{mc}} - T_{\text{opt}})^2} \right]
+$$
+
+Si la temperatura media diaria es mayor o igual a la temperatura máxima de crecimiento:
+
+$$
+\text{GDD} = 0
+$$
+
+### Definición de parámetros:
 
 - $T_{\text{m24h}}$: Temperatura media diaria del aire (°C).
 - $T_b$: Temperatura mínima de crecimiento o temperatura base (°C).
@@ -256,13 +260,8 @@ Donde:
 - $T_{\text{mc}}$: Temperatura máxima de crecimiento (°C).
 - $K$: Factor de escala (se considera $K = 10$, valor estándar).
 
-Los valores óptimos de los parámetros $T_b$, $T_{\text{opt}}$ y $T_{\text{mc}}$ se calcularon mediante algoritmos genéticos utilizando el programa GeneHunter® de Ward Systems. La función objetivo fue el coeficiente de variación (CV) de los valores de GDD calculados para el primer estado fenológico en dos fechas de cultivo (F1 y F2). Se establecieron los siguientes parámetros para el algoritmo genético:
+Los valores óptimos de los parámetros $T_b$, $T_{\text{opt}}$ y $T_{\text{mc}}$ se calcularon mediante algoritmos genéticos utilizando el programa GeneHunter® de Ward Systems. La función objetivo fue el coeficiente de variación (CV) de los valores de GDD calculados para el primer estado fenológico en dos fechas de cultivo (F1 y F2). S
 
-- Tamaño de población: 100 individuos.
-- Longitud de cromosoma: 16 bits.
-- Tasa de mutación: 0.01.
-- Tasa de cruzamiento de cromosomas: 90%.
-- Criterio de parada: 75 generaciones sin cambio.
 
 
 ### 3.6.5. Fracción de radiación absorbida por el cultivo
