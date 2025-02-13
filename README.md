@@ -14,11 +14,11 @@ Para muchos de nosotros como agrónomos, modelar el crecimiento y desarrollo de 
 
 Antes del doctorado, siempre tuve curiosidad, no solo por operar estos sistemas, sino por entender **cómo estaban diseñados**. Me preguntaba qué procesos fisiológicos estaban involucrados y cómo se podían medir: **fotosíntesis, respiración, transpiración, nutrición**, o incluso el impacto de **plagas y enfermedades**.
 
-## Índice del Proyecto
-- [I. INTRODUCCIÓN](#i-introducción)
-- [II. OBJETIVOS](#ii-objetivos)
+## ÍNDICE
+- [I. Introducción](#i-introducción)
+- [II. Objetivos](#ii-objetivos)
 - [III. MATERIALES Y METODOS](#iii-materiales-y-metodos)
-
+  
 ## I. INTRODUCCION
 
 La producción de tomate en invernadero es una actividad económica muy importante en el mundo. Con el paso del tiempo y la gran cantidad de descubrimientos científicos en fisiología de plantas, se ha logrado entender cómo la fotosíntesis, respiración y otros procesos fisiológicos son fundamentales para entender el crecimiento y desarrollo de las plantas. Con la incorporación de otras ciencias como física, química, informática y la electrónica en la investigación y producción agrícola, se ha podido lograr la abstracción de algunas partes que componen un sistema agrícola.
