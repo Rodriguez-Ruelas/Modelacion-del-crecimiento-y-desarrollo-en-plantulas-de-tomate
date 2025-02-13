@@ -155,9 +155,16 @@ La eficiencia en el uso de la radiación solar (**EUR**, g MJ<sup>-1</sup>) se o
 
 d) ***Rendimiento cuántico, punto de saturación por luz, punto de compensación por luz, y tasa de asimilación neta***
 
-Para calcular el rendimiento cuántico (**Φ**, μmol de CO<sub>2</sub> μmol<sup>-1</sup> de fotones), punto de saturación por luz (**Psl**, μmol de fotones m<sup>-2</sup> s<sup>-1</sup>), punto de compensación por luz (**Pcl**, μmol de fotones m<sup>2</sup> s<sup>-1</sup>), y la capacidad fotosintética neta (**Fg**, μmol CO<sub>2</sub> m<sup>2</sup> s<sup>-1</sup>); se realizaron cinéticas fotosintéticas para cada ambiente con un equipo portátil para medir fotosíntesis marca LICOR® (Licor, Inc.; Lincoln, NE, EE. UU.) y un aditamento especial (6400-02B LED Light source) que permite controlar la intensidad de luz bajo un programa ya establecido; además, es capaz de controlar el flujo y concentración de CO<sub>2</sub> gracias a un dosificador de gas (6400-01 CO<sub>2</sub> Mixer).
-Se realizaron 3 cinéticas de crecimiento, una para cada tratamiento o ambiente (6-27, 6-35 y 6-40 °C) y con 3 repeticiones. Las cinéticas fotosintéticas se iniciaron alrededor de las 10:00 h y cada una de ellas se llevó a cabo en un día diferente (ambiente 6-27 °C el 20 de julio del 2017, 6-35 °C el 21 de julio del 2017 y el ambiente 6-40 °C el 19 de julio del 2017).
-Para realizar las mediciones en cada ambiente, se modificó el sistema de control (**SC**) para que mantuviera constante la temperatura del microtúnel. Cada temperatura del aire programada para el microtúnel coincidía con la temperatura programada en la cámara del equipo portátil de fotosíntesis, de tal forma que la temperatura del aire sería similar a la temperatura de la hoja evaluada.
+Para calcular las siguientes variables:
+
+- **Rendimiento cuántico (Φ)**, en μmol de CO2 μmol<sup>-1</sup> de fotones,
+- **Punto de saturación por luz (Psl)**, en μmol de fotones m<sup>-2</sup> s<sup>-1</sup>,
+- **Punto de compensación por luz (Pcl)**, en μmol de fotones m<sup>-2</sup> s<sup>-1</sup>,
+- **Capacidad fotosintética neta (Fg)**, en μmol CO2 m<sup>-2</sup> s<sup>-1</sup>;
+
+se realizaron cinéticas fotosintéticas para cada ambiente con un equipo portátil para medir fotosíntesis marca LICOR® (Licor, Inc.; Lincoln, NE, EE. UU.) y un aditamento especial (6400-02B LED Light source) que permite controlar la intensidad de luz bajo un programa ya establecido. Además, el equipo es capaz de controlar el flujo y concentración de CO2 gracias a un dosificador de gas (6400-01 CO2 Mixer).
+
+Para realizar las mediciones en cada ambiente, se modificó el sistema de control (SC) para que mantuviera constante la temperatura del microtúnel. Cada temperatura del aire programada para el microtúnel coincidía con la temperatura programada en la cámara del equipo portátil de fotosíntesis, de tal forma que la temperatura del aire sería similar a la temperatura de la hoja evaluada.
 
 <p align="center">
   <img src="https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/IRGA.png" alt="licor">
