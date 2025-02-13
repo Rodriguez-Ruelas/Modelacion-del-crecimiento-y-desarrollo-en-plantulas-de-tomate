@@ -97,7 +97,7 @@ e) **Sistema de monitoreo (𝑆𝑀)**
 Para construir el sistema de monitoreo (𝑆𝑀) en tiempo real del DCC, se usó el servidor “Internet of Things” (𝐼𝑂𝑇) que presta la compañía Ubidots®. Este servicio permite enlazar el 𝑆𝐶𝐶 con el servidor IOT para almacenar datos.
 
 ### 3.2. Datos para el modelo (Variables y parámetros)
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.1 Variables
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.1 Variables
 
 a) ***Biomasa seca total y por órgano vegetal***
 
