@@ -208,6 +208,13 @@ donde:
 
 Se considera que 𝑇<sub>pr</sub> = 45 % y que 𝐹<sub>𝑃𝐴𝑅 = 0.50.
 
+<p align="center">
+  <img src="https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/raw/main/Imagenes_README/Radiacion.png" alt="Radiación">
+</p>
+
+<p align="center"><strong>Figura 6. </strong>Mediciones de la irradiancia fotosintética usando un radiómetro lineal:A) Mediciones por encima del plástico. B) Mediciones por debajo del plástico..</p>
+
+
 ### 3.6.3. Temperatura media diaria
 
 La temperatura media diaria (𝑇<sub>m24h</sub>, °C) diaria se obtuvo del promedio de la 𝑇<sub>a</sub> cada 15 min obtenida de los registradores electrónicos Hobo® en cada microtúnel.
