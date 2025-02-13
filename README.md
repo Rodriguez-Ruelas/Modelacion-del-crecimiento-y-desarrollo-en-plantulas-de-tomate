@@ -224,8 +224,6 @@ La temperatura media diaria (𝑇<sub>m24h</sub>, °C) diaria se obtuvo del prom
 
 ### 3.6.4. Desarrollo fenológico
 
-La acumulación de grados días desarrollo (GDD) en cada evento fenológico se obtuvo mediante el método de Manrique y Hodges (1989). La temperatura óptima de crecimiento (𝑇<sub>opt</sub>), temperatura mínima de crecimiento o temperatura base (𝑇<sub>b</sub>) y la temperatura máxima de crecimiento (𝑇<sub>mc</sub>), se obtuvieron con base en la metodología descrita en el apartado 5.7.2.
-
 Para evaluar el desarrollo del cultivo, se consideró el momento en que el 50% de las plántulas alcanzaron los siguientes eventos fenológicos: emergencia de plántula, cotiledones extendidos, primera hoja y segunda hoja. Además, se calculó el tiempo térmico mediante los Grados Día de Desarrollo (GDD) utilizando el método de Manrique y Hodges (1989):
 
 Si la temperatura media diaria es menor que la temperatura base:
@@ -261,8 +259,6 @@ $$
 - $K$: Factor de escala (se considera $K = 10$, valor estándar).
 
 Los valores óptimos de los parámetros $T_b$, $T_{\text{opt}}$ y $T_{\text{mc}}$ se calcularon mediante algoritmos genéticos utilizando el programa GeneHunter® de Ward Systems. La función objetivo fue el coeficiente de variación (CV) de los valores de GDD calculados para el primer estado fenológico en dos fechas de cultivo (F1 y F2). S
-
-
 
 ### 3.6.5. Fracción de radiación absorbida por el cultivo
 
