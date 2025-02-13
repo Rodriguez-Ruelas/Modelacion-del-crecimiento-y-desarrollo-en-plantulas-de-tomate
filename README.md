@@ -78,13 +78,6 @@ Los microtúneles se diseñaron y construyeron utilizando Arduino, en conjunto c
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.2 Sistema de control
 
 Para ajustar Ta a la curva de la función de Tac, se desarrolló un sistema de control (𝑆𝐶). El 𝑆𝐶 se diseñó a partir hardware y software “open source”. El hardware del 𝑆𝐶 consistió de cinco componentes:  
-  - a) Dispositivo central de control (𝐷𝐶𝐶),  
-  - b) Dispositivos de entrada (𝐷𝐸),  
-  - c) Dispositivos de salida (𝐷𝑆),  
-  - d) Dispositivo de comunicación (𝐷𝐶), y  
-  - e) Sistema de monitoreo (𝑆𝑀).  
-
-El software usado fue el compilador Arduino®.  
 
 ![Sistema de control](https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/Sistema%20de%20control.png)
 Fig. 
@@ -105,6 +98,8 @@ Como interfaz de comunicación, se usó una placa ethernet genérica basada en e
 
 e) **Sistema de monitoreo (𝑆𝑀)**  
 Para construir el sistema de monitoreo (𝑆𝑀) en tiempo real del DCC, se usó el servidor “Internet of Things” (𝐼𝑂𝑇) que presta la compañía Ubidots®. Este servicio permite enlazar el 𝑆𝐶𝐶 con el servidor IOT para almacenar datos.
+
+El software usado fue el compilador Arduino®.
 
 ### 3.2. Datos para el modelo (Variables y parámetros)
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.1. Variables
