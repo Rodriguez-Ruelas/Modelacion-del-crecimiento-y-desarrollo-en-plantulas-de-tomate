@@ -15,16 +15,7 @@ Para muchos de nosotros como agrónomos, modelar el crecimiento y desarrollo de 
 Antes del doctorado, siempre tuve curiosidad, no solo por operar estos sistemas, sino por entender **cómo estaban diseñados**. Me preguntaba qué procesos fisiológicos estaban involucrados y cómo se podían medir: **fotosíntesis, respiración, transpiración, nutrición**, o incluso el impacto de **plagas y enfermedades**.
 
 ## Índice del Proyecto
-
-- [I. INTRODUCCIÓN](## I. INTRODUCCION)
-  - [Modelo de Predicción](#modelo-de-predicción)
-  - [Parámetros y Cálculos](#parámetros-y-cálculos)
-  - [Variables del Modelo](#variables-del-modelo)
-  - [Diagrama de Flujo](#diagrama-de-flujo)
-  
-- [II. OBJETIVOS](#ii-objetivos)
-  - [Objetivo General](#objetivo-general)
-  - [Objetivos Específicos](#objetivos-específicos)
+- [I. INTRODUCCIÓN](#i-introducción)
 
 ## I. INTRODUCCION
 
