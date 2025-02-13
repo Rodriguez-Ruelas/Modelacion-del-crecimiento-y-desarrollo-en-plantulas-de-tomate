@@ -2,7 +2,7 @@
 
 # 🌱 **Antes de lo formal...**  
 
-Para muchos de nosotros, los agrónomos, modelar el crecimiento y desarrollo de los cultivos siempre ha sonado demasiado abstracto, incluso innecesario. Pero esa percepción cambia cuando ves compañías como **PRIVA**, que han desarrollado sistemas capaces de controlar casi por completo un invernadero y optimizar cada variable climática para mejorar la producción.  
+Para muchos de nosotros como agrónomos, modelar el crecimiento y desarrollo de los cultivos siempre ha sonado demasiado abstracto, incluso innecesario. Pero esa percepción cambia cuando ves compañías como **PRIVA**, que han desarrollado sistemas capaces de controlar casi por completo un invernadero y optimizar cada variable climática para mejorar la producción.  
 
 <p align="center">
   <img src="https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/raw/main/Imagenes_README/PRIVA.png" alt="Sistema PRIVA" width="500">
