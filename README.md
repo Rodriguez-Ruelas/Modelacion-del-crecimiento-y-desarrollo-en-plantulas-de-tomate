@@ -17,6 +17,7 @@ Antes del doctorado, siempre tuve curiosidad, no solo por operar estos sistemas,
 ## Índice del Proyecto
 - [I. INTRODUCCIÓN](#i-introducción)
 - [II. OBJETIVOS](#ii-objetivos)
+- [III. MATERIALES Y METODOS](#iii-materiales y metodos)
 
 ## I. INTRODUCCION
 
@@ -39,8 +40,6 @@ El modelo de predicción consta de 2 variables ambientales de entrada: la irradi
 <p align="center">
   <strong>Figura 2.</strong> Diagrama de flujo para el modelado del crecimiento y desarrollo de plántulas de tomate.
 </p>
-
-
 
 ## II. OBJETIVOS
 
