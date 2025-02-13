@@ -281,7 +281,7 @@ g) ***Producción de asimilados***
 
 La producción de asimilados es una adaptación de la propuesta hecha por Goudriaan y Van Laar (2012) para el cálculo de fotosíntesis neta en función de la temperatura. Sin embargo, se incorporaron algunos cálculos y parámetros de la bibliografía existente.
 
-g) ***Punto de compensación por CO2***
+h) ***Punto de compensación por CO2***
 
 El punto de compensación por CO2 (𝛤, μg CO<sub>2</sub> m<sup>-3</sup>) fue calculado a partir de la propuesta por Brooks y Farquhar (1985) para el cultivo de espinaca. La ecuación que se usó fue:
 
@@ -291,7 +291,7 @@ donde:
 - 𝛤 es el punto de compensación de CO<sub>2</sub>
 - 𝑇<sub>a</sub> es la temperatura del aire (°C)
 
-h) ***Rendimiento cuántico***
+i) ***Rendimiento cuántico***
 
 El rendimiento cuántico (𝜺, μg CO<sub>2</sub> J<sup>-1</sup>) se obtuvo mediante la corrección del rendimiento cuántico potencial con el punto de compensación de CO<sub>2</sub> de acuerdo con la ecuación propuesta por Goudriaan y Van Laar (2012):
 
@@ -303,7 +303,7 @@ donde:
 - 𝐶<sub>a</sub> es la concentración de CO<sub>2</sub> ambiental (μg CO<sub>2</sub> m<sup>-3</sup>)
 - 𝛤 es el punto de compensación de CO<sub>2</sub> (μg CO<sub>2</sub> m<sup>-3</sup>)
 
-i) ***Conductancia del mesófilo***
+j) ***Conductancia del mesófilo***
 
 La conductancia del mesófilo (𝑔<sub>m</sub>, cm s<sup>-1</sup>) se calculó a partir de la interpolación de datos de una tabla que relaciona la temperatura ambiental (°C) con la conductancia estomática (cm s<sup>-1</sup>). Esta tabla (Cuadro 7) se obtuvo a partir de los datos propuestos por Bertin y Heuvelink (1993) para el modelo TOMSIM ver 1.0.
 
@@ -317,7 +317,7 @@ La conductancia del mesófilo (𝑔<sub>m</sub>, cm s<sup>-1</sup>) se calculó 
 | 40                        | 0                                            |
 
 
-j) ***Resistencia del mesófilo al CO2***
+k) ***Resistencia del mesófilo al CO2***
 
 La resistencia del mesófilo (𝑟<sub>m</sub>, s<sup>-1</sup> m<sup>-1</sup>) se calcula a partir del inverso de la conductancia del mesófilo:
 
@@ -327,7 +327,7 @@ donde:
 - 𝑟<sub>m</sub> es la resistencia del mesófilo al CO<sub>2</sub> (s m<sup>-1</sup>)
 - 𝑔<sub>m</sub> es la conductancia del mesófilo al CO<sub>2</sub> (m s<sup>-1</sup>)
 
-k) ***Carboxilación limitada por fotosíntesis neta***
+l) ***Carboxilación limitada por fotosíntesis neta***
 
 Como la carboxilación limitada por fotosíntesis neta (𝐹<sub>𝑛𝑐</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>) se calcula a partir de la concentración ambiental de CO<sub>2</sub>, se usa la ley de los gases para obtener esta variable en función de la temperatura:
 
@@ -352,7 +352,7 @@ donde:
 
 Los parámetros 𝑟<sub>m</sub> = 50 s m<sup>-1</sup> y 𝑟<sub>b,v</sub> = 100 s m<sup>-1</sup> fueron obtenidos a partir de los valores propuestos por Bertin y Heuvelink (1993) para el modelo TOMISM versión 1.0.
 
-l) ***Máxima capacidad fotosintética***
+m) ***Máxima capacidad fotosintética***
 
 Goudriaan y Van Laar (2012) proponen obtener la máxima capacidad fotosintética (𝐹<sub>𝑚𝑚</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>) mediante la interpolación entre este parámetro y la temperatura del aire. Los valores de interpolación son obtenidos de datos de campo donde la temperatura del aire (°C) se encuentra en el eje de las abscisas y 𝐹<sub>𝑚𝑚</sub> en el eje de las ordenadas. Los datos para la interpolación se obtuvieron de Bertin y Heuvelink (1993) y se usan en el modelo TOMISIM versión 1.0 (Cuadro 8).
 
@@ -368,11 +368,11 @@ Goudriaan y Van Laar (2012) proponen obtener la máxima capacidad fotosintética
 donde:
 - 𝐹<sub>𝑚𝑚</sub> es la máxima capacidad fotosintética (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>)
 
-m) ***Máxima tasa de asimilación***
+n) ***Máxima tasa de asimilación***
 
 La máxima tasa de asimilación (𝐹<sub>𝑛,𝑚𝑎𝑥</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>) es limitada ya sea por 𝐹<sub>𝑚𝑚</sub> o 𝐹<sub>𝑛𝑐</sub>. Basados en esto, el valor de 𝐹<sub>𝑛,𝑚𝑎𝑥</sub> fue determinado por el valor menor entre 𝐹<sub>𝑚𝑚</sub> y 𝐹<sub>𝑛𝑐</sub>.
 
-n) ***Tasa de respiración obscura***
+o) ***Tasa de respiración obscura***
 
 La tasa de respiración obscura (𝑅<sub>d</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>) es calculada a partir de la ecuación:
 
@@ -389,7 +389,7 @@ donde:
 
 Se considera 𝑄<sub>10</sub> = 2 y 𝑇<sub>r</sub> = 31.
 
-o) ***Máxima tasa de asimilación total***
+p) ***Máxima tasa de asimilación total***
 
 La máxima tasa de asimilación total (𝐹<sub>g,max</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>) está determinada por la suma de 𝐹<sub>n,max</sub> y 𝑅<sub>d</sub>:
 
@@ -402,7 +402,7 @@ donde:
 - 𝑅<sub>d</sub> es la respiración actual (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>);
 - 𝐹<sub>n,max</sub> es la tasa máxima de asimilación neta (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>).
 
-p) ***Tasa de asimilación total***
+q) ***Tasa de asimilación total***
 
 La tasa de asimilación total (𝐹<sub>g</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>) cuando 𝐹<sub>g</sub> es mayor a 0, entonces se calcula con la siguiente ecuación:
 
@@ -416,7 +416,7 @@ donde:
 - 𝜖 es el rendimiento cuántico actual (μg CO<sub>2</sub> J<sup>-1</sup>);
 - 𝐼 es la irradiancia absorbida por el follaje (J m<sup>-2</sup> s<sup>-1</sup>).
 
-q) ***Tasa de asimilación neta***
+r) ***Tasa de asimilación neta***
 
 La tasa de asimilación neta (𝐹<sub>n,CO2</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>), se calculó con base en la diferencia entre 𝐹<sub>g</sub> y 𝑅<sub>d</sub>.
 
@@ -428,12 +428,11 @@ donde:
 - 𝐹<sub>n</sub> es la tasa de asimilación neta (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>);
 - 𝐹<sub>g</sub> es la tasa de asimilación total (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>);
 - 𝑅<sub>d</sub> es la respiración actual (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>).
-
-r) ***Repartición de asimilados***
+s) ***Repartición de asimilados***
 
 La repartición de asimilados de la planta fue determinada a partir de los datos de campo correspondientes a la cantidad de biomasa acumulada en órganos. De esta forma, la fracción de asimilados destinados para cada órgano es obtenida a partir de un factor de conversión correspondiente al porcentaje de asimilados asignados a tallo, hoja y raíz.
 
-s) ***Índice de área foliar***
+t) ***Índice de área foliar***
 
 El Índice de área foliar (𝐼𝐴𝐹, m<sup>2</sup> m<sup>-2</sup>) es calculado al final del cálculo de la producción y repartición de asimilados con la ecuación:
 
