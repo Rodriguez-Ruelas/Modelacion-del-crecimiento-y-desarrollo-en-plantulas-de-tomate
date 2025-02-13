@@ -250,7 +250,7 @@ $$
 \text{GDD} = 0
 $$
 
-### Definición de parámetros:
+donde:
 
 - $T_{\text{m24h}}$: Temperatura media diaria del aire (°C).
 - $T_b$: Temperatura mínima de crecimiento o temperatura base (°C).
