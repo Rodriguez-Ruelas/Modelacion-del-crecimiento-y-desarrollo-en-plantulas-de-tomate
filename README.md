@@ -428,6 +428,7 @@ donde:
 - 𝐹<sub>n</sub> es la tasa de asimilación neta (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>);
 - 𝐹<sub>g</sub> es la tasa de asimilación total (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>);
 - 𝑅<sub>d</sub> es la respiración actual (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>).
+
 s) ***Repartición de asimilados***
 
 La repartición de asimilados de la planta fue determinada a partir de los datos de campo correspondientes a la cantidad de biomasa acumulada en órganos. De esta forma, la fracción de asimilados destinados para cada órgano es obtenida a partir de un factor de conversión correspondiente al porcentaje de asimilados asignados a tallo, hoja y raíz.
