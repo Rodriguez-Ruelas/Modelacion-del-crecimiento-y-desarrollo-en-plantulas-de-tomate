@@ -13,8 +13,10 @@ Para muchos de nosotros como agrónomos, modelar el crecimiento y desarrollo de 
 </p>
 
 ## ÍNDICE
-- [I. Introducción](#i-introducción)
-- [II. Objetivos](#ii-objetivos)
+- [I. INTRODUCCION](#i-introducción)
+- [II. OBJETIVOS](#ii-objetivos)
+  - [2.1. Objetivo general](#21-objetivo-general)
+  - [2.2. Objetivos específicos](#22-objetivos-específicos)
 - [III. MATERIALES Y METODOS](#iii-materiales-y-metodos)
   
 ## I. INTRODUCCIÓN
