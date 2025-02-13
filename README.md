@@ -1,6 +1,6 @@
 # 🌱📊 MODELACIÓN DEL CRECIMIENTO Y DESARROLLO EN PLÁNTULAS DE TOMATE 🍅
 
-# 🌱 **Antes de lo formal...**  
+# 🌱 **Antes de lo formal...**   
 
 Para muchos de nosotros como agrónomos, modelar el crecimiento y desarrollo de los cultivos siempre ha sonado demasiado abstracto, incluso innecesario. Pero esa percepción cambia cuando ves compañías como **PRIVA**, que han desarrollado sistemas capaces de controlar casi por completo un invernadero y optimizar cada variable climática para mejorar la producción.  
 
