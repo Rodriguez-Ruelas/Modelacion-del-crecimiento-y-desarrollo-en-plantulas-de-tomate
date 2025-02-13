@@ -12,23 +12,7 @@ Para muchos de nosotros como agrónomos, modelar el crecimiento y desarrollo de 
   <small><strong>Figura 1.</strong> Software PRIVA. Fuente: [PRIVA](https://www.priva.com/)</small>
 </p>
 
-Antes del doctorado, siempre tuve curiosidad, no solo por operar estos sistemas, sino por entender **cómo estaban diseñados**. Me preguntaba qué procesos fisiológicos estaban involucrados y cómo se podían medir: **fotosíntesis, respiración, transpiración, nutrición**, o incluso el impacto de **plagas y enfermedades**, por mencionar algunos. Y lo más importante:  
-
-### ❓ *¿Cómo juntamos todo eso para hacer predicciones?*  
-
-¿Fue fácil? **No.** La verdad, entrar en el diseño del equipo para controlar el experimento fue un reto enorme para alguien con formación agrícola. Pero, como dicen en mi casa:  
-
-> *"Sin miedo a nada."*  
-
-Luego vino la programación, otra habilidad que tuve que integrar en el proyecto. Y vaya que programar puede ser un **dolor de cabeza**. Pero pensar como programador te cambia la forma de abordar los problemas, te obliga a ver las cosas desde otro ángulo.  
-
-### 🚀 **Lo que más disfruté**  
-La integración de los procesos fisiológicos fue lo que más me apasionó, porque **es mi trabajo y lo que realmente disfruto**. Pero al final, no deja de ser un trabajo de **paciencia y prueba constante**, de buscar **cómo hacer que las cosas funcionen aunque parezcan imposibles.**  
-
-### 🔧 **Un modelo adaptable**  
-Lo mejor es que este modelo **no es rígido**, es modular y permite la integración de nuevas variables. Aspectos como **nutrición, riego o fitosanidad** pueden añadirse para afinar aún más la predicción del crecimiento y mejorar la toma de decisiones en el manejo de cultivos.  
-
-Porque al final, eso es lo que buscamos: **herramientas que nos permitan entender mejor las plantas y optimizar su desarrollo.**
+Antes del doctorado, siempre tuve curiosidad, no solo por operar estos sistemas, sino por entender **cómo estaban diseñados**. Me preguntaba qué procesos fisiológicos estaban involucrados y cómo se podían medir: **fotosíntesis, respiración, transpiración, nutrición**, o incluso el impacto de **plagas y enfermedades**.
 
 ## I. INTRODUCCION
 
