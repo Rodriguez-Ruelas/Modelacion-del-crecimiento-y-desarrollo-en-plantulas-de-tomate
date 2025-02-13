@@ -26,7 +26,6 @@ Para muchos de nosotros como agrónomos, modelar el crecimiento y desarrollo de 
       - [c) Dispositivos de salida (𝐷𝑆)](#c-dispositivos-de-salida-ds)
       - [d) Dispositivo de comunicación (𝐷𝐶)](#d-dispositivo-de-comunicación-dc)
       - [e) Sistema de monitoreo (𝑆𝑀)](#e-sistema-de-monitoreo-sm)
-
   
 ## I. INTRODUCCIÓN
 
