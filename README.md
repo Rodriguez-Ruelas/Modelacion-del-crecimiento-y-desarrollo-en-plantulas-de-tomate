@@ -99,7 +99,7 @@ Para construir el sistema de monitoreo (𝑆𝑀) en tiempo real del DCC, se us�
 ### 3.2. Datos para el modelo (Variables y parámetros)
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.1 Variables
 
-a) **Biomasa seca total y por órgano vegetal** 
+a) ***Biomasa seca total y por órgano vegetal***
 
 Se calcularon las variables de biomasa total (**B<sub>stot</sub>**, g m<sup>-2</sup>), tallo (**B<sub>st</sub>**, g m<sup>-2</sup>), hoja (**B<sub>sh</sub>**, g m<sup>-2</sup>) y raíz (**B<sub>sr</sub>**, g m<sup>-2</sup>).
 Con los datos de biomasa seca acumulada total y en cada órgano, se calculó la fracción de fotoasimilados asignado a cada órgano vegetal; fracción de fotoasimilados asignados a hoja (**F<sub>h</sub>**, %), fracción de fotoasimilados asignados a tallo (**F<sub>t</sub>**, %) y fracción de fotoasimilados a raíz (**F<sub>r</sub>**, %).
