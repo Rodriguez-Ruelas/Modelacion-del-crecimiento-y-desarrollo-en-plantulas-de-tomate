@@ -16,6 +16,7 @@ Antes del doctorado, siempre tuve curiosidad, no solo por operar estos sistemas,
 
 ## Índice del Proyecto
 - [I. INTRODUCCIÓN](#i-introducción)
+- [II. OBJETIVOS](#ii-objetivos)
 
 ## I. INTRODUCCION
 
