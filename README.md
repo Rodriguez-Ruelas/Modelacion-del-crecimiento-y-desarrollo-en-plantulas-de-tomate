@@ -214,6 +214,11 @@ Se considera que 𝑇<sub>pr</sub> = 45 % y que 𝐹<sub>𝑃𝐴𝑅 = 0.50.
 
 <p align="center"><strong>Figura 6. </strong>Mediciones de la irradiancia fotosintética usando un radiómetro lineal:A) Mediciones por encima del plástico. B) Mediciones por debajo del plástico..</p>
 
+<p align="center">
+  <img src="https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/raw/main/Imagenes_README/PAR.png" alt="PAR">
+</p>
+
+<p align="center"><strong>Figura 7. </strong>Distribución de la radiación fotosintéticamente activa (PAR) en el experimento.</p>
 
 ### 3.6.3. Temperatura media diaria
 
