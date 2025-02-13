@@ -25,6 +25,18 @@ Para muchos de nosotros como agrónomos, modelar el crecimiento y desarrollo de 
       - [c) Dispositivos de salida](#c-dispositivos-de-salida)
       - [d) Dispositivo de comunicacion](#d-dispositivo-de-comunicacion)
       - [e) Sistema de monitoreo](#e-sistema-de-monitoreo)
+  - [3.2. Datos para el modelo (Variables y parámetros)](#32-datos-para-el-modelo-variables-y-parámetros)
+    - [3.2.1. Variables](#321-variables)
+      - [a) Biomasa seca total y por órgano vegetal](#a-biomasa-seca-total-y-por-órgano-vegetal)
+      - [b) Longitud de tallo](#b-longitud-de-tallo)
+      - [c) Ancho de tallo](#c-ancho-de-tallo)
+      - [d) Área foliar](#d-área-foliar)
+      - [e) Índice de área foliar](#e-índice-de-área-foliar)
+    - [3.2.2. Parámetros](#322-parámetros)
+      - [a) Coeficiente de extinción](#a-coeficiente-de-extinción)
+      - [b) Área foliar específica](#b-área-foliar-específica)
+      - [c) Eficiencia en el uso de la radiación solar](#c-eficiencia-en-el-uso-de-la-radiación-solar)
+      - [d) Rendimiento cuántico, punto de saturación por luz, punto de compensación por luz, y tasa de asimilación neta](#d-rendimiento-cuántico-punto-de-saturación-por-luz-punto-de-compensación-por-luz-y-tasa-de-asimilación-neta)
 
 ## I. INTRODUCCIÓN
 
@@ -103,9 +115,9 @@ Para construir el sistema de monitoreo (𝑆𝑀) en tiempo real del DCC, se us�
 El software usado fue el compilador Arduino®.
 
 ### 3.2. Datos para el modelo (Variables y parámetros)
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.1. Variables
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.1. Variables
 
-a) ***Biomasa seca total y por órgano vegetal***
+#### a) Biomasa seca total y por órgano vegetal
 
 Se calcularon las variables de biomasa total (**B<sub>stot</sub>**, g m<sup>-2</sup>), tallo (**B<sub>st</sub>**, g m<sup>-2</sup>), hoja (**B<sub>sh</sub>**, g m<sup>-2</sup>) y raíz (**B<sub>sr</sub>**, g m<sup>-2</sup>).
 Con los datos de biomasa seca acumulada total y en cada órgano, se calculó la fracción de fotoasimilados asignado a cada órgano vegetal; fracción de fotoasimilados asignados a hoja (**F<sub>h</sub>**, %), fracción de fotoasimilados asignados a tallo (**F<sub>t</sub>**, %) y fracción de fotoasimilados a raíz (**F<sub>r</sub>**, %).
