@@ -176,10 +176,6 @@ Para realizar las mediciones en cada ambiente, se modificó el sistema de contro
   <img src="https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/raw/main/Imagenes_README/licor.png" alt="licor">
 </p>
 
-<p align="center">
-  <img src="https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/raw/main/Imagenes_README/IRGA.png" alt="IRGA">
-</p>
-
 <p align="center"><strong>Figura 5. </strong>Cinética de CO<sub>2</sub> usando el sistema de análisis infrarrojo de gases (IRGA, por sus siglas en inglés de "InfraRed Gas Analyzer").</p>
 
 
