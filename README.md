@@ -19,13 +19,13 @@ Para muchos de nosotros como agrónomos, modelar el crecimiento y desarrollo de 
   - [2.2. Objetivos específicos](#22-objetivos-específicos)
 - [III. MATERIALES Y METODOS](#iii-materiales-y-metodos)
   - [3.1. Construcción de microtúneles](#31-construcción-de-microtúneles)
-    - [3.1.1 Sistema de control](#312-sistema-de-control)
+    - [3.1.2 Sistema de control](#312-sistema-de-control)
       - [a) Dispositivo central de control (𝐷𝐶𝐶)](#a-dispositivo-central-de-control-dcc)
       - [b) Dispositivos de entrada (𝐷𝐸)](#b-dispositivos-de-entrada-de)
       - [c) Dispositivos de salida (𝐷𝑆)](#c-dispositivos-de-salida-ds)
-      - [d) Dispositivo de comunicación (𝐷𝐶)](#d-dispositivo-de-comunicación-dc)
+      - [d) Dispositivo de comunicación (𝐷𝐶)](#d-dispositivo-de-comunicacion-dc)
       - [e) Sistema de monitoreo (𝑆𝑀)](#e-sistema-de-monitoreo-sm)
-  
+
 ## I. INTRODUCCIÓN
 
 La producción de tomate en invernadero es una actividad clave a nivel mundial. Con los avances en fisiología vegetal, junto con la integración de disciplinas como física, química, informática y electrónica, se han desarrollado modelos de predicción agrícola que permiten comprender mejor los sistemas de producción y optimizar su manejo.
