@@ -173,7 +173,7 @@ Se realizaron 3 cinéticas de crecimiento, una para cada tratamiento o ambiente 
 Para realizar las mediciones en cada ambiente, se modificó el sistema de control (**SC**) para que mantuviera constante la temperatura del microtúnel. Cada temperatura del aire programada para el microtúnel coincidía con la temperatura programada en la cámara del equipo portátil de fotosíntesis, de tal forma que la temperatura del aire sería similar a la temperatura de la hoja evaluada.
 
 <p align="center">
-  <img src="https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/raw/main/Imagenes_README/licor.png" alt="licor">
+  <img src="https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/IRGA.png" alt="licor">
 </p>
 
 <p align="center"><strong>Figura 5. </strong>Cinética de CO<sub>2</sub> usando el sistema de análisis infrarrojo de gases (IRGA, por sus siglas en inglés de "InfraRed Gas Analyzer").</p>
