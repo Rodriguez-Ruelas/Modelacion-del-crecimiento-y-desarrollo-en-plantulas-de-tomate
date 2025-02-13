@@ -190,7 +190,7 @@ Para realizar las mediciones en cada ambiente, se modificó el sistema de contro
 
 <p align="center"><strong>Figura 5. </strong>Cinética de CO<sub>2</sub> usando el sistema de análisis infrarrojo de gases (IRGA, por sus siglas en inglés de "InfraRed Gas Analyzer").</p>
 
-## 3.3 Modelo
+### 3.3 Modelo
 
 a) ***Parámetros iniciales***
 
