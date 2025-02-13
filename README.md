@@ -16,7 +16,7 @@ Antes del doctorado, siempre tuve curiosidad, no solo por operar estos sistemas,
 
 ## Índice del Proyecto
 
-- [Modelo de Predicción para Plántulas de Tomate](#modelo-de-predicción-para-plántulas-de-tomate)
+- [INTRODUCCION](#INTRODUCCION)
   - [Parámetros y Cálculos](#parámetros-y-cálculos)
   - [Variables del Modelo](#variables-del-modelo)
   - [Diagrama de Flujo](#diagrama-de-flujo)
