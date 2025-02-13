@@ -62,7 +62,6 @@ Para establecer el experimento se construyeron 3 estructuras protegidas con form
   <strong>Figura 2.</strong> A) Disposición de los microtúneles en campo. B) Microtúneles abiertos con plántulas de tomate.
 </p>
 
-
 Los microtúneles se diseñaron y construyeron utilizando Arduino, en conjunto con el servicio de Ubidots, una plataforma de IoT (Internet of Things) para monitoreo y control de dispositivos. La capacidad de diseñar y construir nuestros propios instrumentos de experimentación es fundamental para explorar y someter a las plantas a los tratamientos correspondientes que se desean evaluar.
 
 ### 3.2. Sistema de control
@@ -94,7 +93,6 @@ Como interfaz de comunicación, se usó una placa ethernet genérica basada en e
 
 e) **Sistema de monitoreo (𝑆𝑀)**  
 Para construir el sistema de monitoreo (𝑆𝑀) en tiempo real del DCC, se usó el servidor “Internet of Things” (𝐼𝑂𝑇) que presta la compañía Ubidots®. Este servicio permite enlazar el 𝑆𝐶𝐶 con el servidor IOT para almacenar datos.
-
 
 ### 3.3. Tratamientos
  
@@ -443,3 +441,4 @@ donde:
 - 𝐹<sub>h</sub> es la fracción de fotoasimilados asignados a la hoja;
 - 𝐹<sub>n</sub> es la tasa de asimilación neta (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>).
 
+[Volver al índice](#índice)
