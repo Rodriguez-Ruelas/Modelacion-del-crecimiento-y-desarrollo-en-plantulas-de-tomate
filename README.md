@@ -122,15 +122,15 @@ El software usado fue el compilador Arduino®.
 Se calcularon las variables de biomasa total (**B<sub>stot</sub>**, g m<sup>-2</sup>), tallo (**B<sub>st</sub>**, g m<sup>-2</sup>), hoja (**B<sub>sh</sub>**, g m<sup>-2</sup>) y raíz (**B<sub>sr</sub>**, g m<sup>-2</sup>).
 Con los datos de biomasa seca acumulada total y en cada órgano, se calculó la fracción de fotoasimilados asignado a cada órgano vegetal; fracción de fotoasimilados asignados a hoja (**F<sub>h</sub>**, %), fracción de fotoasimilados asignados a tallo (**F<sub>t</sub>**, %) y fracción de fotoasimilados a raíz (**F<sub>r</sub>**, %).
 
-b) ***Longitud de tallo***
+#### b) Longitud de tallo
  
 La longitud del tallo (**L<sub>t</sub>**, cm) se midió después de la división de la plántula. Este inicio desde el primer nudo hasta la punta del tallo. Para esta medición se usó un flexómetro marca Truper®.
 
-c) ***Ancho de talloo***
+#### c) Ancho de talloo
 
 El ancho de tallo (**A<sub>t</sub>**, mm) se midió a la mitad del primer entrenudo de las plantas diseccionadas con un vernier digital de la marca Truper®.
 
-c) ***Área foliar***
+#### d) ***Área foliar***
 
 Para obtener el área foliar (**AF**, m<sup>2</sup> planta<sup>-1</sup>), las hojas por planta se escanearon en un multifuncional de la marca EPSON® serie 220 y las imágenes digitales se procesaron con el programa de uso libre (ImageJ, National Institutes of Health).
 
@@ -139,13 +139,13 @@ Para obtener el área foliar (**AF**, m<sup>2</sup> planta<sup>-1</sup>), las ho
 </p>
 <p align="center"><strong>Figura 3. </strong>Software ImageJ utilizado para calcular el área foliar.</p>
 
-c) ***Índice de área foliar***
+#### e) ***Índice de área foliar***
 
 El índice de área foliar (**IAF**, m<sup>2</sup> hoja m<sup>-2</sup> superficie) se calculó a partir del promedio de **AF** (m<sup>2</sup> planta<sup>-1</sup>) de cuatro plantas por tratamiento, el cual se multiplicó por la densidad de plantas por metro cuadrado (899.1).
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.2. Parámetros
 
-a) ***Coeficiente de extinción***
+#### a) Coeficiente de extinción
 
 El coeficiente de extinción (**k**) se calculó a partir de mediciones de irradiancia fotosintética sobre (**I<sub>o</sub>**, μmol·m<sup>-2</sup>·s<sup>-1</sup>) y debajo (**IIAF**, μmol·m<sup>-2</sup>·s<sup>-1</sup>) del follaje del cultivo con un radiómetro lineal LI-1500 (LI-COR®, Inc.), y el **IAF** obtenido al momento de hacer la medición. La ecuación usada para calcular **k** fue:
 
@@ -163,15 +163,15 @@ donde:
 </p>
 <p align="center"><strong>Figura 4. </strong>Mediciones con el radiómetro lineal. A). Por encima del dosel y B). Por debajo del dosel.</p>
 
-b) ***Área foliar específica***
+#### b) Área foliar específica
 
 El área foliar específica (**AFE**, m<sup>2</sup> g<sup>-1</sup>) se calculó a partir de la relación entre el **AF** (m<sup>2</sup>) y el peso del área foliar (**B<sub>sh</sub>**, g m<sup>-2</sup>) promedio de cuatro plantas por tratamiento.
 
-c) ***Eficiencia en el uso de la radiación solar***
+#### c) Eficiencia en el uso de la radiación solar
 
 La eficiencia en el uso de la radiación solar (**EUR**, g MJ<sup>-1</sup>) se obtuvo del valor de la pendiente de la relación lineal entre la biomasa seca acumulada (g m<sup>-2</sup>) y la irradiancia solar acumulada transmitida por el plástico (MJ m<sup>-2</sup> d<sup>-1</sup>).
 
-d) ***Rendimiento cuántico, punto de saturación por luz, punto de compensación por luz, y tasa de asimilación neta***
+#### d) Rendimiento cuántico, punto de saturación por luz, punto de compensación por luz, y tasa de asimilación neta
 
 Para calcular las siguientes variables:
 
