@@ -65,7 +65,7 @@ Para establecer el experimento se construyeron 3 estructuras protegidas con form
 
 Los microtúneles se diseñaron y construyeron utilizando Arduino, en conjunto con el servicio de Ubidots, una plataforma de IoT (Internet of Things) para monitoreo y control de dispositivos. La capacidad de diseñar y construir nuestros propios instrumentos de experimentación es fundamental para explorar y someter a las plantas a los tratamientos correspondientes que se desean evaluar.
 
-### 3.2. Sistema de control
+#### 3.1.2 Sistema de control
 Para ajustar Ta a la curva de la función de Tac, se desarrolló un sistema de control (𝑆𝐶). El 𝑆𝐶 se diseñó a partir hardware y software “open source”. El hardware del 𝑆𝐶 consistió de cinco componentes:  
   - a) Dispositivo central de control (𝐷𝐶𝐶),  
   - b) Dispositivos de entrada (𝐷𝐸),  
