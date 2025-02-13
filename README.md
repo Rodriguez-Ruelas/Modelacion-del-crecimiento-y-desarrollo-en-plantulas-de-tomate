@@ -24,7 +24,6 @@ A primera vista, la cantidad de variables, parámetros y ecuaciones puede parece
   <strong>Figura X.</strong> Modelo de flujo para el crecimiento y desarrollo de plántulas de tomate.
 </p>
 
-
 ## ÍNDICE
 - [I. Introducción](#i-introducción)
 - [II. Objetivos](#ii-objetivos)
