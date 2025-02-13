@@ -16,12 +16,13 @@ Antes del doctorado, siempre tuve curiosidad, no solo por operar estos sistemas,
 
 ## Índice del Proyecto
 
-- [INTRODUCCION](#INTRODUCCION)
+- [I. INTRODUCCIÓN](#i-introducción)
+  - [Modelo de Predicción](#modelo-de-predicción)
   - [Parámetros y Cálculos](#parámetros-y-cálculos)
   - [Variables del Modelo](#variables-del-modelo)
   - [Diagrama de Flujo](#diagrama-de-flujo)
   
-- [Objetivos del Estudio](#objetivos-del-estudio)
+- [II. OBJETIVOS](#ii-objetivos)
   - [Objetivo General](#objetivo-general)
   - [Objetivos Específicos](#objetivos-específicos)
 
