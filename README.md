@@ -218,7 +218,7 @@ Se considera que 𝑇<sub>pr</sub> = 45 % y que 𝐹<sub>𝑃𝐴𝑅 = 0.50.
   <img src="https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/PAR.png" alt="PAR">
 </p>
 
-<p align="center"><strong>Figura 7. </strong>Distribución de la radiación fotosintéticamente activa (PAR) en el experimento.</p>
+<p align="center"><strong>Figura 7. </strong>Irradiancia fotosintética sobre el cultivo.</p>
 
 ### 3.6.3. Temperatura media diaria
 
