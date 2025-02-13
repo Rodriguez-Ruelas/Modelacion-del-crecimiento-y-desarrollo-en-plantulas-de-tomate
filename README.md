@@ -104,13 +104,16 @@ a) ***Biomasa seca total y por órgano vegetal***
 Se calcularon las variables de biomasa total (**B<sub>stot</sub>**, g m<sup>-2</sup>), tallo (**B<sub>st</sub>**, g m<sup>-2</sup>), hoja (**B<sub>sh</sub>**, g m<sup>-2</sup>) y raíz (**B<sub>sr</sub>**, g m<sup>-2</sup>).
 Con los datos de biomasa seca acumulada total y en cada órgano, se calculó la fracción de fotoasimilados asignado a cada órgano vegetal; fracción de fotoasimilados asignados a hoja (**F<sub>h</sub>**, %), fracción de fotoasimilados asignados a tallo (**F<sub>t</sub>**, %) y fracción de fotoasimilados a raíz (**F<sub>r</sub>**, %).
 
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.2. Longitud de tallo
+b) ***Longitud de tallo***
+ 
 La longitud del tallo (**L<sub>t</sub>**, cm) se midió después de la división de la plántula. Este inicio desde el primer nudo hasta la punta del tallo. Para esta medición se usó un flexómetro marca Truper®.
 
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.3. Ancho de tallo
+c) ***Ancho de talloo***
+
 El ancho de tallo (**A<sub>t</sub>**, mm) se midió a la mitad del primer entrenudo de las plantas diseccionadas con un vernier digital de la marca Truper®.
 
-#### 3.4.4. Área foliar
+c) ***Área foliar***
+
 Para obtener el área foliar (**AF**, m<sup>2</sup> planta<sup>-1</sup>), las hojas por planta se escanearon en un multifuncional de la marca EPSON® serie 220 y las imágenes digitales se procesaron con el programa de uso libre (ImageJ, National Institutes of Health).
 
 <p align="center">
@@ -118,10 +121,12 @@ Para obtener el área foliar (**AF**, m<sup>2</sup> planta<sup>-1</sup>), las ho
 </p>
 <p align="center"><strong>Figura 3. </strong>Software ImageJ utilizado para calcular el área foliar.</p>
 
-#### 3.4.5. Índice de área foliar
+c) ***Índice de área foliar***
+
 El índice de área foliar (**IAF**, m<sup>2</sup> hoja m<sup>-2</sup> superficie) se calculó a partir del promedio de **AF** (m<sup>2</sup> planta<sup>-1</sup>) de cuatro plantas por tratamiento, el cual se multiplicó por la densidad de plantas por metro cuadrado (899.1).
 
-### 3.5. Cálculo de parámetros de las plántulas de tomate
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.5. Cálculo de parámetros de las plántulas de tomate
+
 #### 3.5.1. Coeficiente de extinción
 El coeficiente de extinción (**k**) se calculó a partir de mediciones de irradiancia fotosintética sobre (**I<sub>o</sub>**, μmol·m<sup>-2</sup>·s<sup>-1</sup>) y debajo (**IIAF**, μmol·m<sup>-2</sup>·s<sup>-1</sup>) del follaje del cultivo con un radiómetro lineal LI-1500 (LI-COR®, Inc.), y el **IAF** obtenido al momento de hacer la medición. La ecuación usada para calcular **k** fue:
 
@@ -138,7 +143,6 @@ donde:
   <img src="https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/CoeffExt.png" alt="CoeffExt">
 </p>
 <p align="center"><strong>Figura 4. </strong>Mediciones con el radiómetro lineal. A). Por encima del dosel y B). Por debajo del dosel.</p>
-
 
 #### 3.5.2 Área foliar específica
 El área foliar específica (**AFE**, m<sup>2</sup> g<sup>-1</sup>) se calculó a partir de la relación entre el **AF** (m<sup>2</sup>) y el peso del área foliar (**B<sub>sh</sub>**, g m<sup>-2</sup>) promedio de cuatro plantas por tratamiento.
