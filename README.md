@@ -1,3 +1,13 @@
+<div align="center">
+
+  <h1 style="font-size: 50px;">🚧 EN CONSTRUCCIÓN 👋 🚧</h1>
+
+Actualmente estoy organizando y depurando los proyectos, por lo que algunas secciones pueden estar incompletas o en desarrollo. Si tienes alguna pregunta, no dudes en contactarme.  
+
+</div>
+
+---
+
 # 🌱📊 MODELACIÓN DEL CRECIMIENTO Y DESARROLLO EN PLÁNTULAS DE TOMATE 🍅
 
 # 🌱 **Antes de lo formal...**   
