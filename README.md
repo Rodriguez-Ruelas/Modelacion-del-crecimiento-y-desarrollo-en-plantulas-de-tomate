@@ -157,10 +157,10 @@ d) ***Rendimiento cuántico, punto de saturación por luz, punto de compensació
 
 Para calcular las siguientes variables:
 
-- **Rendimiento cuántico (Φ)**, en μmol de CO2 μmol<sup>-1</sup> de fotones,
-- **Punto de saturación por luz (Psl)**, en μmol de fotones m<sup>-2</sup> s<sup>-1</sup>,
-- **Punto de compensación por luz (Pcl)**, en μmol de fotones m<sup>-2</sup> s<sup>-1</sup>,
-- **Capacidad fotosintética neta (Fg)**, en μmol CO2 m<sup>-2</sup> s<sup>-1</sup>;
+- Rendimiento cuántico (Φ), en μmol de CO2 μmol<sup>-1</sup> de fotones,
+- Punto de saturación por luz (Psl), en μmol de fotones m<sup>-2</sup> s<sup>-1</sup>,
+- Punto de compensación por luz (Pcl), en μmol de fotones m<sup>-2</sup> s<sup>-1</sup>,
+- Capacidad fotosintética neta (Fg), en μmol CO2 m<sup>-2</sup> s<sup>-1</sup>;
 
 se realizaron cinéticas fotosintéticas para cada ambiente con un equipo portátil para medir fotosíntesis marca LICOR® (Licor, Inc.; Lincoln, NE, EE. UU.) y un aditamento especial (6400-02B LED Light source) que permite controlar la intensidad de luz bajo un programa ya establecido. Además, el equipo es capaz de controlar el flujo y concentración de CO2 gracias a un dosificador de gas (6400-01 CO2 Mixer).
 
