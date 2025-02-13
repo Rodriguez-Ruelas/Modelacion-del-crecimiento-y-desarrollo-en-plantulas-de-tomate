@@ -164,7 +164,7 @@ Para realizar las mediciones en cada ambiente, se modificó el sistema de contro
 
 ## 3.6 Componentes del modelo
 
-### 3.6.1. Parámetros iniciales
+#### 3.6.1. Parámetros iniciales
 
 Los parámetros iniciales que necesita el modelo propuesto son:
 - Biomasa seca inicial total (B<sub>stot,i</sub>, g m<sup>-2</sup>)
@@ -176,7 +176,7 @@ Los parámetros iniciales que necesita el modelo propuesto son:
 
 Cada valor para las variables iniciales se obtuvieron a partir del primer muestreo de cada tratamiento para las dos fechas de cultivo.
 
-### 3.6.2. Irradiancia fotosintética sobre el cultivo
+#### 3.6.2. Irradiancia fotosintética sobre el cultivo
 
 La irradiancia fotosintética sobre el cultivo (I<sub>fs</sub>, MJ m<sup>-2</sup> d<sup>-1</sup>) se calculó con la siguiente ecuación:
 
@@ -202,11 +202,11 @@ Se considera que 𝑇<sub>pr</sub> = 45 % y que 𝐹<sub>𝑃𝐴𝑅 = 0.50.
 
 <p align="center"><strong>Figura 7. </strong>Irradiancia fotosintética sobre el cultivo.</p>
 
-### 3.6.3. Temperatura media diaria
+#### 3.6.3. Temperatura media diaria
 
 La temperatura media diaria (𝑇<sub>m24h</sub>, °C) diaria se obtuvo del promedio de la 𝑇<sub>a</sub> cada 15 min obtenida de los registradores electrónicos Hobo® en cada microtúnel.
 
-### 3.6.4. Desarrollo fenológico
+#### 3.6.4. Desarrollo fenológico
 
 Para evaluar el desarrollo del cultivo, se consideró el momento en que el 50% de las plántulas alcanzaron los siguientes eventos fenológicos: emergencia de plántula, cotiledones extendidos, primera hoja y segunda hoja. Además, se calculó el tiempo térmico mediante los Grados Día de Desarrollo (GDD) utilizando el método de Manrique y Hodges (1989):
 
@@ -244,7 +244,7 @@ donde:
 
 Los valores óptimos de los parámetros $T_b$, $T_{\text{opt}}$ y $T_{\text{mc}}$ se calcularon mediante algoritmos genéticos utilizando el programa GeneHunter® de Ward Systems. La función objetivo fue el coeficiente de variación (CV) de los valores de GDD calculados para el primer estado fenológico en dos fechas de cultivo (F1 y F2). S
 
-### 3.6.5. Fracción de radiación absorbida por el cultivo
+#### 3.6.5. Fracción de radiación absorbida por el cultivo
 
 La fracción de radiación absorbida (𝑓, adimensional) se calculó con base en una adaptación a la ley de Beer-Lambert:
 
@@ -256,7 +256,7 @@ donde:
 - 𝐼𝐴𝐹 es el índice de área foliar (m<sup>2</sup> m<sup>-2</sup>)
 - 𝑒 es el número de Euler (adimensional)
 
-### 3.6.6. Radiación absorbida por el follaje
+#### 3.6.6. Radiación absorbida por el follaje
 
 La radiación absorbida por el follaje (𝐼, J m<sup>-2</sup> s<sup>-1</sup>) se calculó con la siguiente ecuación:
 
@@ -267,11 +267,11 @@ donde:
 - 𝑓 es la fracción de radiación absorbida por el follaje
 - 𝐼<sub>fs</sub> es la irradiancia incidente sobre el follaje (J m<sup>-2</sup> s<sup>-1</sup>)
 
-### 3.6.7. Producción de asimilados
+#### 3.6.7. Producción de asimilados
 
 La producción de asimilados es una adaptación de la propuesta hecha por Goudriaan y Van Laar (2012) para el cálculo de fotosíntesis neta en función de la temperatura. Sin embargo, se incorporaron algunos cálculos y parámetros de la bibliografía existente.
 
-### 3.6.8. Punto de compensación por CO2
+#### 3.6.8. Punto de compensación por CO2
 
 El punto de compensación por CO2 (𝛤, μg CO<sub>2</sub> m<sup>-3</sup>) fue calculado a partir de la propuesta por Brooks y Farquhar (1985) para el cultivo de espinaca. La ecuación que se usó fue:
 
@@ -281,7 +281,7 @@ donde:
 - 𝛤 es el punto de compensación de CO<sub>2</sub>
 - 𝑇<sub>a</sub> es la temperatura del aire (°C)
 
-### 3.6.9. Rendimiento cuántico
+#### 3.6.9. Rendimiento cuántico
 
 El rendimiento cuántico (𝜺, μg CO<sub>2</sub> J<sup>-1</sup>) se obtuvo mediante la corrección del rendimiento cuántico potencial con el punto de compensación de CO<sub>2</sub> de acuerdo con la ecuación propuesta por Goudriaan y Van Laar (2012):
 
@@ -293,7 +293,7 @@ donde:
 - 𝐶<sub>a</sub> es la concentración de CO<sub>2</sub> ambiental (μg CO<sub>2</sub> m<sup>-3</sup>)
 - 𝛤 es el punto de compensación de CO<sub>2</sub> (μg CO<sub>2</sub> m<sup>-3</sup>)
 
-### 3.6.10 Conductancia del mesófilo
+#### 3.6.10 Conductancia del mesófilo
 
 La conductancia del mesófilo (𝑔<sub>m</sub>, cm s<sup>-1</sup>) se calculó a partir de la interpolación de datos de una tabla que relaciona la temperatura ambiental (°C) con la conductancia estomática (cm s<sup>-1</sup>). Esta tabla (Cuadro 7) se obtuvo a partir de los datos propuestos por Bertin y Heuvelink (1993) para el modelo TOMSIM ver 1.0.
 
@@ -307,7 +307,7 @@ La conductancia del mesófilo (𝑔<sub>m</sub>, cm s<sup>-1</sup>) se calculó 
 | 40                        | 0                                            |
 
 
-### 4.6.11. Resistencia del mesófilo al CO2
+#### 3.6.11. Resistencia del mesófilo al CO2
 
 La resistencia del mesófilo (𝑟<sub>m</sub>, s<sup>-1</sup> m<sup>-1</sup>) se calcula a partir del inverso de la conductancia del mesófilo:
 
@@ -317,7 +317,7 @@ donde:
 - 𝑟<sub>m</sub> es la resistencia del mesófilo al CO<sub>2</sub> (s m<sup>-1</sup>)
 - 𝑔<sub>m</sub> es la conductancia del mesófilo al CO<sub>2</sub> (m s<sup>-1</sup>)
 
-### 3.6.12. Carboxilación limitada por fotosíntesis neta
+#### 3.6.12. Carboxilación limitada por fotosíntesis neta
 
 Como la carboxilación limitada por fotosíntesis neta (𝐹<sub>𝑛𝑐</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>) se calcula a partir de la concentración ambiental de CO<sub>2</sub>, se usa la ley de los gases para obtener esta variable en función de la temperatura:
 
@@ -342,7 +342,7 @@ donde:
 
 Los parámetros 𝑟<sub>m</sub> = 50 s m<sup>-1</sup> y 𝑟<sub>b,v</sub> = 100 s m<sup>-1</sup> fueron obtenidos a partir de los valores propuestos por Bertin y Heuvelink (1993) para el modelo TOMISM versión 1.0.
 
-### 3.6.13. Máxima capacidad fotosintética
+#### 3.6.13. Máxima capacidad fotosintética
 
 Goudriaan y Van Laar (2012) proponen obtener la máxima capacidad fotosintética (𝐹<sub>𝑚𝑚</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>) mediante la interpolación entre este parámetro y la temperatura del aire. Los valores de interpolación son obtenidos de datos de campo donde la temperatura del aire (°C) se encuentra en el eje de las abscisas y 𝐹<sub>𝑚𝑚</sub> en el eje de las ordenadas. Los datos para la interpolación se obtuvieron de Bertin y Heuvelink (1993) y se usan en el modelo TOMISIM versión 1.0 (Cuadro 8).
 
@@ -358,11 +358,11 @@ Goudriaan y Van Laar (2012) proponen obtener la máxima capacidad fotosintética
 donde:
 - 𝐹<sub>𝑚𝑚</sub> es la máxima capacidad fotosintética (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>)
 
-### 3.6.14. Máxima tasa de asimilación
+#### 3.6.14. Máxima tasa de asimilación
 
 La máxima tasa de asimilación (𝐹<sub>𝑛,𝑚𝑎𝑥</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>) es limitada ya sea por 𝐹<sub>𝑚𝑚</sub> o 𝐹<sub>𝑛𝑐</sub>. Basados en esto, el valor de 𝐹<sub>𝑛,𝑚𝑎𝑥</sub> fue determinado por el valor menor entre 𝐹<sub>𝑚𝑚</sub> y 𝐹<sub>𝑛𝑐</sub>.
 
-### 3.6.15. Tasa de respiración obscura
+#### 3.6.15. Tasa de respiración obscura
 
 La tasa de respiración obscura (𝑅<sub>d</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>) es calculada a partir de la ecuación:
 
@@ -379,7 +379,7 @@ donde:
 
 Se considera 𝑄<sub>10</sub> = 2 y 𝑇<sub>r</sub> = 31.
 
-### 3.6.16. Máxima tasa de asimilación total
+#### 3.6.16. Máxima tasa de asimilación total
 
 La máxima tasa de asimilación total (𝐹<sub>g,max</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>) está determinada por la suma de 𝐹<sub>n,max</sub> y 𝑅<sub>d</sub>:
 
@@ -392,7 +392,7 @@ donde:
 - 𝑅<sub>d</sub> es la respiración actual (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>);
 - 𝐹<sub>n,max</sub> es la tasa máxima de asimilación neta (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>).
 
-### 3.6.17. Tasa de asimilación total
+#### 3.6.17. Tasa de asimilación total
 
 La tasa de asimilación total (𝐹<sub>g</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>) cuando 𝐹<sub>g</sub> es mayor a 0, entonces se calcula con la siguiente ecuación:
 
@@ -406,7 +406,7 @@ donde:
 - 𝜖 es el rendimiento cuántico actual (μg CO<sub>2</sub> J<sup>-1</sup>);
 - 𝐼 es la irradiancia absorbida por el follaje (J m<sup>-2</sup> s<sup>-1</sup>).
 
-### 3.6.18. Tasa de asimilación neta
+#### 3.6.18. Tasa de asimilación neta
 
 La tasa de asimilación neta (𝐹<sub>n,CO2</sub>, μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>), se calculó con base en la diferencia entre 𝐹<sub>g</sub> y 𝑅<sub>d</sub>.
 
@@ -420,11 +420,11 @@ donde:
 - 𝑅<sub>d</sub> es la respiración actual (μg CO<sub>2</sub> m<sup>-2</sup> s<sup>-1</sup>).
 
 
-### 3.6.19. Repartición de asimilados
+#### 3.6.19. Repartición de asimilados
 
 La repartición de asimilados de la planta fue determinada a partir de los datos de campo correspondientes a la cantidad de biomasa acumulada en órganos. De esta forma, la fracción de asimilados destinados para cada órgano es obtenida a partir de un factor de conversión correspondiente al porcentaje de asimilados asignados a tallo, hoja y raíz.
 
-### 3.6.20. Índice de área foliar
+#### 3.6.20. Índice de área foliar
 
 El Índice de área foliar (𝐼𝐴𝐹, m<sup>2</sup> m<sup>-2</sup>) es calculado al final del cálculo de la producción y repartición de asimilados con la ecuación:
 
