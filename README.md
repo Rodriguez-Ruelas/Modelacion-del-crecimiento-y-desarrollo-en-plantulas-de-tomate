@@ -192,7 +192,7 @@ Para realizar las mediciones en cada ambiente, se modificó el sistema de contro
 
 ## 3.3 Modelo
 
-a) ***Parámetros inicialesr***
+a) ***Parámetros iniciales***
 
 Los parámetros iniciales que necesita el modelo propuesto son:
 - Biomasa seca inicial total (B<sub>stot,i</sub>, g m<sup>-2</sup>)
