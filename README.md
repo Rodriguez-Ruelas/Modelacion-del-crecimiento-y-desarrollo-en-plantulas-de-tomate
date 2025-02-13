@@ -178,8 +178,6 @@ Para realizar las mediciones en cada ambiente, se modificó el sistema de contro
 
 <p align="center"><strong>Figura 5. </strong>Cinética de CO<sub>2</sub> usando el sistema de análisis infrarrojo de gases (IRGA, por sus siglas en inglés de "InfraRed Gas Analyzer").</p>
 
-
-
 ## 3.6 Componentes del modelo
 
 ### 3.6.1. Parámetros iniciales
@@ -228,6 +226,45 @@ La temperatura media diaria (𝑇<sub>m24h</sub>, °C) diaria se obtuvo del prom
 
 La acumulación de grados días desarrollo (GDD) en cada evento fenológico se obtuvo mediante el método de Manrique y Hodges (1989). La temperatura óptima de crecimiento (𝑇<sub>opt</sub>), temperatura mínima de crecimiento o temperatura base (𝑇<sub>b</sub>) y la temperatura máxima de crecimiento (𝑇<sub>mc</sub>), se obtuvieron con base en la metodología descrita en el apartado 5.7.2.
 
+Para evaluar el desarrollo del cultivo, se consideró el momento en que el 50% de las plántulas alcanzaron los siguientes eventos fenológicos: emergencia de plántula, cotiledones extendidos, primera hoja y segunda hoja. Además, se calculó el tiempo térmico mediante los Grados Día de Desarrollo (GDD) utilizando el método de Manrique y Hodges (1989):
+
+- Si $T_{\text{m24h}} < T_b$:
+  $$ 
+  \text{GDD} = 0 
+  $$
+
+- Si $T_b \leq T_{\text{m24h}} < T_{\text{opt}}$:
+  $$ 
+  \text{GDD} = K \cdot \left[ 1 - \frac{(T_{\text{m24h}} - T_b)^2}{(T_{\text{opt}} - T_b)^2} \right] 
+  $$
+
+- Si $T_{\text{opt}} \leq T_{\text{m24h}} < T_{\text{mc}}$:
+  $$ 
+  \text{GDD} = K \cdot \left[ 1 - \frac{(T_{\text{m24h}} - T_b)^2}{(T_{\text{mc}} - T_{\text{opt}})^2} \right] 
+  $$
+
+- Si $T_{\text{m24h}} \geq T_{\text{mc}}$:
+  $$ 
+  \text{GDD} = 0 
+  $$
+
+Donde:
+
+- $T_{\text{m24h}}$: Temperatura media diaria del aire (°C).
+- $T_b$: Temperatura mínima de crecimiento o temperatura base (°C).
+- $T_{\text{opt}}$: Temperatura óptima de crecimiento (°C).
+- $T_{\text{mc}}$: Temperatura máxima de crecimiento (°C).
+- $K$: Factor de escala (se considera $K = 10$, valor estándar).
+
+Los valores óptimos de los parámetros $T_b$, $T_{\text{opt}}$ y $T_{\text{mc}}$ se calcularon mediante algoritmos genéticos utilizando el programa GeneHunter® de Ward Systems. La función objetivo fue el coeficiente de variación (CV) de los valores de GDD calculados para el primer estado fenológico en dos fechas de cultivo (F1 y F2). Se establecieron los siguientes parámetros para el algoritmo genético:
+
+- Tamaño de población: 100 individuos.
+- Longitud de cromosoma: 16 bits.
+- Tasa de mutación: 0.01.
+- Tasa de cruzamiento de cromosomas: 90%.
+- Criterio de parada: 75 generaciones sin cambio.
+
+
 ### 3.6.5. Fracción de radiación absorbida por el cultivo
 
 La fracción de radiación absorbida (𝑓, adimensional) se calculó con base en una adaptación a la ley de Beer-Lambert:
@@ -264,7 +301,6 @@ $$ \Gamma = 42.7 + 1.68 \cdot (T_a - 25) + 0.012 \cdot (T_a - 25)^2 $$
 donde:
 - 𝛤 es el punto de compensación de CO<sub>2</sub>
 - 𝑇<sub>a</sub> es la temperatura del aire (°C)
-
 
 ### 3.6.9. Rendimiento cuántico
 
