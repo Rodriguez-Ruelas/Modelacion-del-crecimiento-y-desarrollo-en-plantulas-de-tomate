@@ -18,6 +18,15 @@ Para muchos de nosotros como agrónomos, modelar el crecimiento y desarrollo de 
   - [2.1. Objetivo general](#21-objetivo-general)
   - [2.2. Objetivos específicos](#22-objetivos-específicos)
 - [III. MATERIALES Y METODOS](#iii-materiales-y-metodos)
+  - [3.1. Construcción de microtúneles](#31-construcción-de-microtúneles)
+    - [3.1.1 Descripción general del microtúnel](#311-descripción-general-del-microtúnel)
+    - [3.1.2 Sistema de control](#312-sistema-de-control)
+      - [a) Dispositivo central de control (𝐷𝐶𝐶)](#a-dispositivo-central-de-control-dcc)
+      - [b) Dispositivos de entrada (𝐷𝐸)](#b-dispositivos-de-entrada-de)
+      - [c) Dispositivos de salida (𝐷𝑆)](#c-dispositivos-de-salida-ds)
+      - [d) Dispositivo de comunicación (𝐷𝐶)](#d-dispositivo-de-comunicación-dc)
+      - [e) Sistema de monitoreo (𝑆𝑀)](#e-sistema-de-monitoreo-sm)
+
   
 ## I. INTRODUCCIÓN
 
