@@ -20,7 +20,8 @@ Para muchos de nosotros como agrónomos, modelar el crecimiento y desarrollo de 
 - [III. MATERIALES Y METODOS](#iii-materiales-y-metodos)
   - [3.1. Construcción de microtúneles](#31-construcción-de-microtúneles)
     - [3.1.2 Sistema de control](#312-sistema-de-control)
-       [a) Dispositivo central de control](#a-dispositivo-central-de-control)
+     - [a) Dispositivo central de control](#a-dispositivo-central-de-control)
+
 
 ## I. INTRODUCCIÓN
 
