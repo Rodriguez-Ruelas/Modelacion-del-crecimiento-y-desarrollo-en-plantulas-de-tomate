@@ -50,7 +50,7 @@ Determinar el efecto de la temperatura máxima en el crecimiento y desarrollo de
 - Determinar el efecto de la temperatura máxima en las variables y parámetros de crecimiento y desarrollo de plántulas de tomate.
 - Adaptar un modelo mecanicista al crecimiento y desarrollo de la plántula de tomate bajo condiciones de microtúneles de plástico.
 
-- [Volver al índice](#índice)
+[Volver al índice](#índice)
 
 ## III. MATERIALES Y METODOS
 ### 3.1. Construcción de microtúneles
