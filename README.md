@@ -14,6 +14,17 @@ Para muchos de nosotros como agrónomos, modelar el crecimiento y desarrollo de 
 
 Antes del doctorado, siempre tuve curiosidad, no solo por operar estos sistemas, sino por entender **cómo estaban diseñados**. Me preguntaba qué procesos fisiológicos estaban involucrados y cómo se podían medir: **fotosíntesis, respiración, transpiración, nutrición**, o incluso el impacto de **plagas y enfermedades**.
 
+A primera vista, la cantidad de variables, parámetros y ecuaciones puede parecer abrumadora. Sin embargo, el siguiente diagrama de flujo proporciona una visión clara de la secuencia que sigue el modelo, facilitando la comprensión de su flujo de trabajo.
+
+<p align="center">
+  <img src="https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/Modelo%20Flujo.png" alt="Modelo de Flujo">
+</p>
+
+<p align="center">
+  <strong>Figura X.</strong> Modelo de flujo para el crecimiento y desarrollo de plántulas de tomate.
+</p>
+
+
 ## ÍNDICE
 - [I. Introducción](#i-introducción)
 - [II. Objetivos](#ii-objetivos)
