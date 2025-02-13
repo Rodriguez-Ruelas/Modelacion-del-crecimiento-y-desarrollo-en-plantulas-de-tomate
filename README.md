@@ -186,32 +186,6 @@ Los parámetros iniciales que necesita el modelo propuesto son:
 
 Cada valor para las variables iniciales se obtuvieron a partir del primer muestreo de cada tratamiento para las dos fechas de cultivo.
 
-#### 3.6.2. Irradiancia fotosintética sobre el cultivo
-
-La irradiancia fotosintética sobre el cultivo (I<sub>fs</sub>, MJ m<sup>-2</sup> d<sup>-1</sup>) se calculó con la siguiente ecuación:
-
-$$ I_{fs} = I_i \cdot \left( \frac{T_{pr}}{100} \right) \cdot F_{PAR} $$
-
-donde:
-- 𝑇<sub>pr</sub> es la transmisión de la cubierta plástica de los microtúneles (%)
-- 𝐼<sub>fs</sub> es la irradiancia fotosintética sobre el cultivo (MJ m<sup>2</sup> s<sup>-1</sup>)
-- 𝐼<sub>i</sub> es la irradiancia solar al exterior del túnel (MJ m<sup>2</sup> s<sup>-1</sup>)
-- 𝐹<sub>𝑃𝐴𝑅 es la fracción de irradiancia solar sobre la banda fotosintética (adimensional)
-
-Se considera que 𝑇<sub>pr</sub> = 45 % y que 𝐹<sub>𝑃𝐴𝑅 = 0.50.
-
-<p align="center">
-  <img src="https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/raw/main/Imagenes_README/Radiacion.png" alt="Radiación">
-</p>
-
-<p align="center"><strong>Figura 6. </strong>Mediciones de la irradiancia fotosintética usando un radiómetro lineal:A) Mediciones por encima del plástico. B) Mediciones por debajo del plástico..</p>
-
-<p align="center">
-  <img src="https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/PAR.png" alt="PAR">
-</p>
-
-<p align="center"><strong>Figura 7. </strong>Irradiancia fotosintética sobre el cultivo.</p>
-
 #### 3.6.3. Temperatura media diaria
 
 La temperatura media diaria (𝑇<sub>m24h</sub>, °C) diaria se obtuvo del promedio de la 𝑇<sub>a</sub> cada 15 min obtenida de los registradores electrónicos Hobo® en cada microtúnel.
@@ -253,6 +227,32 @@ donde:
 - $K$: Factor de escala (se considera $K = 10$, valor estándar).
 
 Los valores óptimos de los parámetros $T_b$, $T_{\text{opt}}$ y $T_{\text{mc}}$ se calcularon mediante algoritmos genéticos utilizando el programa GeneHunter® de Ward Systems. La función objetivo fue el coeficiente de variación (CV) de los valores de GDD calculados para el primer estado fenológico en dos fechas de cultivo (F1 y F2). S
+
+#### 3.6.2. Irradiancia fotosintética sobre el cultivo
+
+La irradiancia fotosintética sobre el cultivo (I<sub>fs</sub>, MJ m<sup>-2</sup> d<sup>-1</sup>) se calculó con la siguiente ecuación:
+
+$$ I_{fs} = I_i \cdot \left( \frac{T_{pr}}{100} \right) \cdot F_{PAR} $$
+
+donde:
+- 𝑇<sub>pr</sub> es la transmisión de la cubierta plástica de los microtúneles (%)
+- 𝐼<sub>fs</sub> es la irradiancia fotosintética sobre el cultivo (MJ m<sup>2</sup> s<sup>-1</sup>)
+- 𝐼<sub>i</sub> es la irradiancia solar al exterior del túnel (MJ m<sup>2</sup> s<sup>-1</sup>)
+- 𝐹<sub>𝑃𝐴𝑅 es la fracción de irradiancia solar sobre la banda fotosintética (adimensional)
+
+Se considera que 𝑇<sub>pr</sub> = 45 % y que 𝐹<sub>𝑃𝐴𝑅 = 0.50.
+
+<p align="center">
+  <img src="https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/raw/main/Imagenes_README/Radiacion.png" alt="Radiación">
+</p>
+
+<p align="center"><strong>Figura 6. </strong>Mediciones de la irradiancia fotosintética usando un radiómetro lineal:A) Mediciones por encima del plástico. B) Mediciones por debajo del plástico..</p>
+
+<p align="center">
+  <img src="https://github.com/Rodriguez-Ruelas/Modelacion-del-crecimiento-y-desarrollo-en-plantulas-de-tomate/blob/main/Imagenes_README/PAR.png" alt="PAR">
+</p>
+
+<p align="center"><strong>Figura 7. </strong>Irradiancia fotosintética sobre el cultivo.</p>
 
 #### 3.6.5. Fracción de radiación absorbida por el cultivo
 
