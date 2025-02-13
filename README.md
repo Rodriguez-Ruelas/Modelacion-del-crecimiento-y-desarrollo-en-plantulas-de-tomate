@@ -17,7 +17,7 @@ Antes del doctorado, siempre tuve curiosidad, no solo por operar estos sistemas,
 ## Índice del Proyecto
 - [I. INTRODUCCIÓN](#i-introducción)
 - [II. OBJETIVOS](#ii-objetivos)
-- [III. MATERIALES Y METODOS](#iii-materiales y metodos)
+- [III. MATERIALES Y METODOS](#ii-materialesymetodos)
 
 ## I. INTRODUCCION
 
