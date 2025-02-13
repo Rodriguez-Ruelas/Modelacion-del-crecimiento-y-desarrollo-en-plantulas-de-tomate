@@ -125,7 +125,7 @@ c) ***Índice de área foliar***
 
 El índice de área foliar (**IAF**, m<sup>2</sup> hoja m<sup>-2</sup> superficie) se calculó a partir del promedio de **AF** (m<sup>2</sup> planta<sup>-1</sup>) de cuatro plantas por tratamiento, el cual se multiplicó por la densidad de plantas por metro cuadrado (899.1).
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.2. Cálculo de parámetros de las plántulas de tomate
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.2. Parámetros
 
 a) ***Coeficiente de extinción***
 
